@@ -1,0 +1,104 @@
+.card {
+    font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: #fafafa;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hanzi {
+    font-size: 72px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #1a1a1a;
+}
+
+.pinyin {
+    font-size: 28px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.tone1 { color: #e74c3c; }
+.tone2 { color: #2ecc71; }
+.tone3 { color: #3498db; }
+.tone4 { color: #9b59b6; }
+.tone5 { color: #999; }
+
+.meaning {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.meaning-es {
+    font-size: 24px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.meaning-en {
+    font-size: 18px;
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+.example {
+    font-size: 20px;
+    margin: 15px 0;
+    padding: 12px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+}
+
+.example-zh {
+    font-size: 22px;
+    color: #1a1a1a;
+}
+
+.example-translation {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.icon-img {
+    width: 64px;
+    height: 64px;
+    margin: 10px auto;
+    display: block;
+}
+
+.cloze-blank {
+    display: inline-block;
+    min-width: 60px;
+    border-bottom: 3px solid #e74c3c;
+    margin: 0 5px;
+}
+
+.cloze-answer {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.listening-prompt {
+    font-size: 48px;
+    color: #3498db;
+    margin: 40px 0;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+.label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #aaa;
+    margin-top: 15px;
+}
