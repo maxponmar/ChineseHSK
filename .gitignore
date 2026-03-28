@@ -1,0 +1,17 @@
+# API keys
+.env
+
+# Generated media
+HSK1/media/audio/
+HSK1/media/icons/
+
+# Output
+HSK1/output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store
