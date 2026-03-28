@@ -33,4 +33,5 @@ DATA_FILES = [
     DATA_DIR / "vocabulary.json",
     DATA_DIR / "daily_phrases.json",
     DATA_DIR / "work_phrases.json",
+    DATA_DIR / "grammar_structures.json",
 ]
