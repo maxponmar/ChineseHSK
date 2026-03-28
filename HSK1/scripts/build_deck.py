@@ -95,8 +95,6 @@ def build_notes_for_entry(entry: dict, models: list[genanki.Model]) -> list[gena
 
     audio_word_tag = f"[sound:{word_audio_file}]"
     audio_sentence_tag = f"[sound:{sentence_audio_file}]"
-    icon_tag = f'<img class="icon-img" src="{icon_file}">'
-
     cloze_sentence = make_cloze_sentence(entry["example_zh"], hanzi)
     highlighted_sentence = make_highlighted_sentence(entry["example_zh"], hanzi)
 
@@ -109,7 +107,7 @@ def build_notes_for_entry(entry: dict, models: list[genanki.Model]) -> list[gena
         entry["example_pinyin"],
         entry["example_es"],
         entry["example_en"],
-        icon_tag,
+        icon_file,
         audio_word_tag,
         audio_sentence_tag,
         cloze_sentence,
