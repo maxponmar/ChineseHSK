@@ -13,5 +13,8 @@ __pycache__/
 *.pyc
 .venv/
 
+# Course materials (copyrighted)
+**/resources/*.pdf
+
 # macOS
 .DS_Store

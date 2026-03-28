@@ -79,3 +79,13 @@ tests/                         # pytest test suite
 - Python 3.9+
 - [ElevenLabs](https://elevenlabs.io) API key (free tier available)
 - [Anki](https://apps.ankiweb.net) desktop app for importing decks
+
+## Attribution
+
+- **Icons:** [OpenMoji](https://openmoji.org) — open-source emoji and icons, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- **Audio:** Generated using [ElevenLabs](https://elevenlabs.io) text-to-speech API
+- **Vocabulary:** Based on the official [HSK](http://www.chinesetest.cn) (Hanyu Shuiping Kaoshi) word lists
+
+## License
+
+This project is licensed under [MIT](LICENSE). Icon assets are subject to their own [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
