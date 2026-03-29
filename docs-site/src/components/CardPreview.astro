@@ -1,0 +1,487 @@
+---
+/**
+ * Interactive card preview component showing the 4 Anki card types
+ * with flip animation to simulate front/back behavior.
+ */
+
+const cards = [
+  // Recognition cards (5)
+  { type: "recognition", front: { hanzi: "你好" }, back: { hanzi: "你好", pinyin: "nǐ hǎo", spanish: "Hola", english: "Hello", example: "你好，我叫小明", exPinyin: "nǐ hǎo, wǒ jiào xiǎomíng", exEs: "Hola, me llamo Xiaoming" }},
+  { type: "recognition", front: { hanzi: "谢谢" }, back: { hanzi: "谢谢", pinyin: "xiè xie", spanish: "Gracias", english: "Thank you", example: "谢谢你的帮助", exPinyin: "xièxie nǐ de bāngzhù", exEs: "Gracias por tu ayuda" }},
+  { type: "recognition", front: { hanzi: "吃" }, back: { hanzi: "吃", pinyin: "chī", spanish: "Comer", english: "To eat", example: "你们想吃什么？", exPinyin: "nǐmen xiǎng chī shénme?", exEs: "¿Qué quieren comer?" }},
+  { type: "recognition", front: { hanzi: "学生" }, back: { hanzi: "学生", pinyin: "xuéshēng", spanish: "Estudiante", english: "Student", example: "他不是学生", exPinyin: "tā bù shì xuéshēng", exEs: "Él no es estudiante" }},
+  { type: "recognition", front: { hanzi: "朋友" }, back: { hanzi: "朋友", pinyin: "péngyǒu", spanish: "Amigo", english: "Friend", example: "她是我的好朋友", exPinyin: "tā shì wǒ de hǎo péngyǒu", exEs: "Ella es mi buena amiga" }},
+
+  // Production cards (5)
+  { type: "production", front: { spanish: "Llamarse", english: "To be called" }, back: { hanzi: "叫", pinyin: "jiào", spanish: "Llamarse", english: "To be called" }},
+  { type: "production", front: { spanish: "Profesor/a", english: "Teacher" }, back: { hanzi: "老师", pinyin: "lǎoshī", spanish: "Profesor/a", english: "Teacher" }},
+  { type: "production", front: { spanish: "Agua", english: "Water" }, back: { hanzi: "水", pinyin: "shuǐ", spanish: "Agua", english: "Water" }},
+  { type: "production", front: { spanish: "Hacer, cocinar", english: "To do, to cook" }, back: { hanzi: "做", pinyin: "zuò", spanish: "Hacer, cocinar", english: "To do, to cook" }},
+  { type: "production", front: { spanish: "Hospital", english: "Hospital" }, back: { hanzi: "医院", pinyin: "yīyuàn", spanish: "Hospital", english: "Hospital" }},
+
+  // Listening cards (5)
+  { type: "listening", front: {}, back: { hanzi: "中国", pinyin: "zhōngguó", spanish: "China", english: "China" }},
+  { type: "listening", front: {}, back: { hanzi: "工作", pinyin: "gōngzuò", spanish: "Trabajar", english: "To work" }},
+  { type: "listening", front: {}, back: { hanzi: "电脑", pinyin: "diànnǎo", spanish: "Computadora", english: "Computer" }},
+  { type: "listening", front: {}, back: { hanzi: "钱", pinyin: "qián", spanish: "Dinero", english: "Money" }},
+  { type: "listening", front: {}, back: { hanzi: "天气", pinyin: "tiānqì", spanish: "Clima", english: "Weather" }},
+
+  // Cloze cards (5)
+  { type: "cloze", front: { sentence: "他___David", sentenceEs: "Él se llama David" }, back: { answer: "叫", hanzi: "叫", pinyin: "jiào", full: "他叫David", fullPinyin: "tā jiào David" }},
+  { type: "cloze", front: { sentence: "你们想___什么？", sentenceEs: "¿Qué quieren comer?" }, back: { answer: "吃", hanzi: "吃", pinyin: "chī", full: "你们想吃什么？", fullPinyin: "nǐmen xiǎng chī shénme?" }},
+  { type: "cloze", front: { sentence: "她是我的___老师", sentenceEs: "Ella es mi profesora de chino" }, back: { answer: "汉语", hanzi: "汉语", pinyin: "hànyǔ", full: "她是我的汉语老师", fullPinyin: "tā shì wǒ de hànyǔ lǎoshī" }},
+  { type: "cloze", front: { sentence: "今天___怎么样？", sentenceEs: "¿Cómo está el clima hoy?" }, back: { answer: "天气", hanzi: "天气", pinyin: "tiānqì", full: "今天天气怎么样？", fullPinyin: "jīntiān tiānqì zěnmeyàng?" }},
+  { type: "cloze", front: { sentence: "我在___工作", sentenceEs: "Trabajo en el hospital" }, back: { answer: "医院", hanzi: "医院", pinyin: "yīyuàn", full: "我在医院工作", fullPinyin: "wǒ zài yīyuàn gōngzuò" }},
+];
+
+const typeLabels: Record<string, { es: string; en: string; color: string }> = {
+  recognition: { es: "Reconocimiento", en: "Recognition", color: "#3498db" },
+  production: { es: "Producción", en: "Production", color: "#2ecc71" },
+  listening: { es: "Escucha", en: "Listening", color: "#9b59b6" },
+  cloze: { es: "Completar", en: "Cloze", color: "#e74c3c" },
+};
+---
+
+<div class="card-preview-container">
+  <div class="card-type-tabs" id="card-type-tabs">
+    {Object.entries(typeLabels).map(([type, label]) => (
+      <button class={`type-tab ${type === 'recognition' ? 'active' : ''}`} data-type={type} style={`--tab-color: ${label.color}`}>
+        <span class="tab-es">{label.es}</span>
+        <span class="tab-en">{label.en}</span>
+      </button>
+    ))}
+  </div>
+
+  <p class="click-hint" id="click-hint">
+    <span class="hint-es">Haz clic en la tarjeta para voltearla</span>
+    <span class="hint-en">Click the card to flip it</span>
+  </p>
+
+  <div class="cards-carousel" id="cards-carousel">
+    {cards.map((card, i) => (
+      <div class={`flip-card ${card.type === 'recognition' ? 'visible' : ''}`} data-card-type={card.type} data-index={i}>
+        <div class="flip-card-inner">
+          {/* FRONT */}
+          <div class="flip-card-front">
+            <div class="anki-card">
+              {card.type === "recognition" && (
+                <div>
+                  <div class="card-hanzi">{card.front.hanzi}</div>
+                </div>
+              )}
+              {card.type === "production" && (
+                <div>
+                  <div class="card-label">ESPAÑOL</div>
+                  <div class="card-meaning-es">{card.front.spanish}</div>
+                  <div class="card-label">ENGLISH</div>
+                  <div class="card-meaning-en">{card.front.english}</div>
+                </div>
+              )}
+              {card.type === "listening" && (
+                <div>
+                  <div class="card-listening-icon">🔊</div>
+                  <div class="card-label">LISTEN AND IDENTIFY</div>
+                </div>
+              )}
+              {card.type === "cloze" && (
+                <div>
+                  <div class="card-cloze-sentence">{card.front.sentence}</div>
+                  <div class="card-divider"></div>
+                  <div class="card-label">ESPAÑOL</div>
+                  <div class="card-cloze-translation">{card.front.sentenceEs}</div>
+                </div>
+              )}
+            </div>
+          </div>
+          {/* BACK */}
+          <div class="flip-card-back">
+            <div class="anki-card">
+              {card.type === "recognition" && (
+                <div>
+                  <div class="card-hanzi">{card.back.hanzi}</div>
+                  <div class="card-pinyin">{card.back.pinyin}</div>
+                  <div class="card-divider"></div>
+                  <div class="card-meaning-es">{card.back.spanish}</div>
+                  <div class="card-meaning-en">{card.back.english}</div>
+                  <div class="card-divider"></div>
+                  <div class="card-example">
+                    <div class="card-example-zh">{card.back.example}</div>
+                    <div class="card-example-pinyin">{card.back.exPinyin}</div>
+                    <div class="card-example-es">{card.back.exEs}</div>
+                  </div>
+                </div>
+              )}
+              {card.type === "production" && (
+                <div>
+                  <div class="card-hanzi">{card.back.hanzi}</div>
+                  <div class="card-pinyin">{card.back.pinyin}</div>
+                  <div class="card-divider"></div>
+                  <div class="card-meaning-es">{card.back.spanish}</div>
+                  <div class="card-meaning-en">{card.back.english}</div>
+                </div>
+              )}
+              {card.type === "listening" && (
+                <div>
+                  <div class="card-hanzi">{card.back.hanzi}</div>
+                  <div class="card-pinyin">{card.back.pinyin}</div>
+                  <div class="card-divider"></div>
+                  <div class="card-meaning-es">{card.back.spanish}</div>
+                  <div class="card-meaning-en">{card.back.english}</div>
+                </div>
+              )}
+              {card.type === "cloze" && (
+                <div>
+                  <div class="card-example">
+                    <div class="card-example-zh">{card.back.full}</div>
+                    <div class="card-example-pinyin">{card.back.fullPinyin}</div>
+                  </div>
+                  <div class="card-divider"></div>
+                  <div class="card-hanzi" style="font-size:48px;">{card.back.hanzi}</div>
+                  <div class="card-pinyin">{card.back.pinyin}</div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <div class="carousel-controls">
+    <button class="carousel-btn" id="prev-btn">&#8592;</button>
+    <span class="carousel-counter" id="carousel-counter">1 / 5</span>
+    <button class="carousel-btn" id="next-btn">&#8594;</button>
+  </div>
+
+  <div class="anki-buttons-demo">
+    <button class="anki-btn anki-again">Again</button>
+    <button class="anki-btn anki-hard">Hard</button>
+    <button class="anki-btn anki-good">Good</button>
+    <button class="anki-btn anki-easy">Easy</button>
+  </div>
+</div>
+
+<style>
+  .card-preview-container {
+    margin: 2rem 0;
+  }
+
+  .card-type-tabs {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .type-tab {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--tab-color);
+    border-radius: 24px;
+    background: transparent;
+    color: var(--sl-color-text);
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .type-tab:hover, .type-tab.active {
+    background: var(--tab-color);
+    color: white;
+  }
+
+  .tab-en {
+    font-size: 0.7rem;
+    opacity: 0.7;
+  }
+
+  .click-hint {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--sl-color-gray-2);
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .hint-en {
+    font-size: 0.75rem;
+    opacity: 0.7;
+  }
+
+  .cards-carousel {
+    position: relative;
+    min-height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flip-card {
+    display: none;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+
+  .flip-card.visible {
+    display: block;
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+
+  .anki-card {
+    font-family: "Noto Sans SC", -apple-system, sans-serif;
+    text-align: center;
+    padding: 24px;
+    background: #fafafa;
+    color: #333;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+  }
+
+  .anki-card > div {
+    width: 100%;
+  }
+
+  .card-hanzi {
+    font-size: 64px;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin: 8px 0;
+  }
+
+  .card-pinyin {
+    font-size: 22px;
+    color: #666;
+    margin: 6px 0;
+  }
+
+  .card-meaning-es {
+    font-size: 20px;
+    color: #2c3e50;
+    font-weight: bold;
+    margin: 4px 0;
+  }
+
+  .card-meaning-en {
+    font-size: 16px;
+    color: #7f8c8d;
+    font-style: italic;
+    margin: 4px 0;
+  }
+
+  .card-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #aaa;
+    margin-top: 10px;
+  }
+
+  .card-divider {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+  }
+
+  .card-example {
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+    text-align: left;
+  }
+
+  .card-example-zh {
+    font-size: 18px;
+    color: #1a1a1a;
+  }
+
+  .card-example-pinyin {
+    font-size: 14px;
+    color: #666;
+    margin-top: 4px;
+  }
+
+  .card-example-es {
+    font-size: 14px;
+    color: #666;
+    margin-top: 4px;
+  }
+
+  .card-listening-icon {
+    font-size: 72px;
+    margin: 20px 0;
+  }
+
+  .card-cloze-sentence {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1a1a1a;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    border-left: 4px solid #e74c3c;
+  }
+
+  .card-cloze-translation {
+    font-size: 15px;
+    color: #666;
+    margin: 4px 0;
+  }
+
+  .carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--sl-color-gray-4);
+    background: var(--sl-color-bg);
+    color: var(--sl-color-text);
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+
+  .carousel-btn:hover {
+    border-color: var(--sl-color-accent);
+    color: var(--sl-color-accent);
+  }
+
+  .carousel-counter {
+    font-size: 0.9rem;
+    color: var(--sl-color-gray-2);
+    min-width: 50px;
+    text-align: center;
+  }
+
+  .anki-buttons-demo {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    opacity: 0.7;
+  }
+
+  .anki-btn {
+    padding: 6px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    cursor: default;
+    color: white;
+  }
+
+  .anki-again { background: #e74c3c; }
+  .anki-hard { background: #e67e22; }
+  .anki-good { background: #2ecc71; }
+  .anki-easy { background: #3498db; }
+
+  @media (max-width: 480px) {
+    .flip-card { height: 280px; }
+    .card-hanzi { font-size: 48px; }
+    .card-cloze-sentence { font-size: 22px; }
+    .type-tab { padding: 0.4rem 0.7rem; font-size: 0.75rem; }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const tabs = document.querySelectorAll('.type-tab');
+    const allCards = document.querySelectorAll('.flip-card');
+    const counter = document.getElementById('carousel-counter')!;
+    const prevBtn = document.getElementById('prev-btn')!;
+    const nextBtn = document.getElementById('next-btn')!;
+
+    let activeType = 'recognition';
+    let activeIndex = 0;
+
+    function getCardsForType(type: string) {
+      return Array.from(allCards).filter(c => (c as HTMLElement).dataset.cardType === type);
+    }
+
+    function showCard() {
+      const typeCards = getCardsForType(activeType);
+      allCards.forEach(c => c.classList.remove('visible', 'flipped'));
+      if (typeCards[activeIndex]) {
+        typeCards[activeIndex].classList.add('visible');
+      }
+      counter.textContent = `${activeIndex + 1} / ${typeCards.length}`;
+    }
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        activeType = (tab as HTMLElement).dataset.type || 'recognition';
+        activeIndex = 0;
+        showCard();
+      });
+    });
+
+    allCards.forEach(card => {
+      card.addEventListener('click', () => {
+        card.classList.toggle('flipped');
+      });
+    });
+
+    prevBtn.addEventListener('click', () => {
+      const typeCards = getCardsForType(activeType);
+      activeIndex = (activeIndex - 1 + typeCards.length) % typeCards.length;
+      showCard();
+    });
+
+    nextBtn.addEventListener('click', () => {
+      const typeCards = getCardsForType(activeType);
+      activeIndex = (activeIndex + 1) % typeCards.length;
+      showCard();
+    });
+  });
+</script>
