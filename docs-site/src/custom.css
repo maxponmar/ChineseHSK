@@ -1,0 +1,26 @@
+:root {
+  --sl-color-accent-low: #fde8e0;
+  --sl-color-accent: #D4380D;
+  --sl-color-accent-high: #7a1f06;
+  --sl-font-system: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.sl-markdown-content h2 {
+  border-bottom: 2px solid var(--sl-color-accent-low);
+  padding-bottom: 0.5rem;
+}
+
+.sl-markdown-content ol > li {
+  margin-bottom: 1.5rem;
+}
+
+.sl-markdown-content ol > li::marker {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--sl-color-accent);
+}
+
+.vocab-table td:first-child {
+  font-size: 1.4em;
+  font-weight: bold;
+}
