@@ -1,6 +1,48 @@
 ---
 title: Bienvenida
 description: Aprende chino mandarín con tarjetas Anki
+template: splash
+hero:
+  title: Aprende Chino Mandarín
+  tagline: Tarjetas de estudio Anki con audio nativo, vocabulario HSK y frases para el día a día y el trabajo.
+  actions:
+    - text: Comenzar
+      link: /ChineseHSK/es/instalar-anki/
+      icon: right-arrow
+    - text: Descargar Mazo HSK1
+      link: https://github.com/maxponmar/ChineseHSK/releases
+      icon: external
+      variant: minimal
 ---
 
-Este sitio te guiará paso a paso para aprender chino mandarín usando tarjetas de estudio Anki.
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## ¿Qué incluye?
+
+<CardGrid>
+  <Card title="Vocabulario HSK" icon="open-book">
+    Todas las palabras del nivel HSK1, con pinyin, traducción al español e inglés.
+  </Card>
+  <Card title="Frases del día a día" icon="heart">
+    Saludos, restaurantes, compras, transporte y situaciones sociales.
+  </Card>
+  <Card title="Frases para el trabajo" icon="laptop">
+    Reuniones, tecnología, correos electrónicos y llamadas de video.
+  </Card>
+  <Card title="Gramática" icon="puzzle">
+    Estructuras gramaticales del libro de texto HSK1.
+  </Card>
+</CardGrid>
+
+## 4 tipos de tarjetas
+
+Cada palabra genera **4 tarjetas diferentes** para un aprendizaje completo:
+
+1. **Reconocimiento** — Ves los caracteres chinos y recuerdas el significado
+2. **Producción** — Ves el significado y recuerdas los caracteres chinos
+3. **Escucha** — Escuchas el audio y identifies la palabra
+4. **Completar oraciones** — Completas el espacio en blanco en una oración
+
+## ¿Para quién es esto?
+
+Este recurso es para cualquier persona que esté aprendiendo chino mandarín, especialmente estudiantes de HSK. No necesitas conocimientos técnicos — esta guía te explica todo paso a paso.
