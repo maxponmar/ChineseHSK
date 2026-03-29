@@ -6,7 +6,7 @@ A complete Chinese Mandarin learning system that generates Anki flashcard decks 
 
 | Level | Words | Description | Status |
 |-------|-------|-------------|--------|
-| HSK 1 | 150 + 150 extra | Basic vocabulary, daily life & work phrases | Done |
+| HSK 1 | 150 + 150 extra + 48 grammar | Basic vocabulary, daily life & work phrases, grammar structures | Done |
 | HSK 2 | ~300 | Elementary conversations | Planned |
 | HSK 3 | ~600 | Intermediate daily communication | Planned |
 | HSK 4 | ~1200 | Advanced daily & professional topics | Planned |
@@ -21,6 +21,7 @@ A complete Chinese Mandarin learning system that generates Anki flashcard decks 
 - **Visual icons:** OpenMoji icons for visual association
 - **Tagged:** Cards tagged by lesson, category, and type for flexible study
 - **Work & daily phrases:** Beyond standard HSK vocab — meetings, tech, email, social situations
+- **Grammar structures:** Sentence patterns, particles, modal verbs, and constructions from each HSK level's textbook
 
 ## Setup
 
@@ -56,6 +57,7 @@ HSK1/                          # One directory per HSK level
     vocabulary.json            # Core HSK vocabulary
     daily_phrases.json         # Daily life phrases
     work_phrases.json          # Work/office phrases
+    grammar_structures.json    # Grammar patterns from textbook
   scripts/
     config.py                  # Paths, API settings
     data_loader.py             # Load & validate JSON data
