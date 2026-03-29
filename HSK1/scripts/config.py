@@ -16,7 +16,7 @@ OUTPUT_DIR = BASE_DIR / "output"
 # ElevenLabs
 ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "")
 ELEVENLABS_VOICE_ID = os.getenv("ELEVENLABS_VOICE_ID", "MI36FIkp9wRP7cpWKPTl")  # Default: Even Zhao (native Chinese female)
-ELEVENLABS_MODEL = "eleven_multilingual_v2"
+ELEVENLABS_MODEL = "eleven_v3"
 AUDIO_SPEED = 0.85  # Slightly slower for learning
 
 # OpenMoji
