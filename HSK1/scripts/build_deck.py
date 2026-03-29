@@ -95,8 +95,12 @@ def build_notes_for_entry(entry: dict, models: list[genanki.Model]) -> list[gena
 
     audio_word_tag = f"[sound:{word_audio_file}]"
     audio_sentence_tag = f"[sound:{sentence_audio_file}]"
-    cloze_sentence = make_cloze_sentence(entry["example_zh"], hanzi)
-    highlighted_sentence = make_highlighted_sentence(entry["example_zh"], hanzi)
+
+    # Only generate cloze fields if hanzi appears in example_zh
+    # Grammar entries have descriptive hanzi (e.g. "疑问代词「什么」") that don't appear in examples
+    has_cloze = hanzi in entry["example_zh"]
+    cloze_sentence = make_cloze_sentence(entry["example_zh"], hanzi) if has_cloze else ""
+    highlighted_sentence = make_highlighted_sentence(entry["example_zh"], hanzi) if has_cloze else ""
 
     field_values = [
         entry["hanzi"],
@@ -119,6 +123,9 @@ def build_notes_for_entry(entry: dict, models: list[genanki.Model]) -> list[gena
 
     notes = []
     for i, model in enumerate(models):
+        # Skip cloze note (index 3) if hanzi doesn't appear in example_zh
+        if i == 3 and not has_cloze:
+            continue
         note = genanki.Note(
             model=model,
             fields=field_values,
@@ -168,10 +175,12 @@ def main():
 
     deck = genanki.Deck(deck_id=DECK_ID, name=DECK_NAME)
 
+    total_notes = 0
     for entry in entries:
         notes = build_notes_for_entry(entry, models)
         for note in notes:
             deck.add_note(note)
+        total_notes += len(notes)
 
     media_files = collect_media_files(entries)
     output_path = OUTPUT_DIR / "HSK1_Complete.apkg"
@@ -181,7 +190,7 @@ def main():
     package.write_to_file(str(output_path))
 
     logger.info(f"Deck built: {output_path}")
-    logger.info(f"Total notes: {len(entries) * 4}")
+    logger.info(f"Total notes: {total_notes}")
     logger.info(f"Media files: {len(media_files)}")
 
 
