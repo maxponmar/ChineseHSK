@@ -1,5 +1,5 @@
 .card {
-    font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Noto Sans SC", "PingFang SC", "Microsoft YaHei";
     text-align: center;
     padding: 20px;
     background: #fafafa;
@@ -9,6 +9,7 @@
 }
 
 .hanzi {
+    font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
     font-size: 72px;
     font-weight: bold;
     margin: 20px 0;
@@ -16,6 +17,7 @@
 }
 
 .pinyin {
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 28px;
     color: #666;
     margin: 10px 0;
@@ -33,12 +35,14 @@
 }
 
 .meaning-es {
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 24px;
     color: #2c3e50;
     font-weight: bold;
 }
 
 .meaning-en {
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 18px;
     color: #7f8c8d;
     font-style: italic;
@@ -54,11 +58,13 @@
 }
 
 .example-zh {
+    font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
     font-size: 22px;
     color: #1a1a1a;
 }
 
 .example-translation {
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
     color: #666;
     margin-top: 5px;
