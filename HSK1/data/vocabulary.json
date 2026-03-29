@@ -5,12 +5,15 @@
     "pinyin": "jiào",
     "spanish": "Llamarse",
     "english": "To be called",
-    "example_zh": "他叫David",
-    "example_pinyin": "tā jiào David",
-    "example_es": "Él se llama David",
-    "example_en": "He is called David",
+    "example_zh": "他叫大卫",
+    "example_pinyin": "tā jiào dàwèi",
+    "example_es": "Él se llama Dawei",
+    "example_en": "He is called Dawei",
     "lesson": 3,
-    "tags": ["HSK1::Lesson3", "verbs"],
+    "tags": [
+      "HSK1::Lesson3",
+      "verbs"
+    ],
     "icon": "name-tag"
   },
   {
@@ -24,7 +27,10 @@
     "example_es": "¿Cómo te llamas?",
     "example_en": "What are you called?",
     "lesson": 3,
-    "tags": ["HSK1::Lesson3", "question-words"],
+    "tags": [
+      "HSK1::Lesson3",
+      "question-words"
+    ],
     "icon": "question"
   },
   {
@@ -38,7 +44,10 @@
     "example_es": "¿Cómo se llaman ellos?",
     "example_en": "What are their names?",
     "lesson": 3,
-    "tags": ["HSK1::Lesson3", "nouns"],
+    "tags": [
+      "HSK1::Lesson3",
+      "nouns"
+    ],
     "icon": "name-tag"
   },
   {
@@ -52,7 +61,10 @@
     "example_es": "Ella se llama Li Yue",
     "example_en": "She is called Li Yue",
     "lesson": 3,
-    "tags": ["HSK1::Lesson3", "proper-nouns"],
+    "tags": [
+      "HSK1::Lesson3",
+      "proper-nouns"
+    ],
     "icon": "person"
   },
   {
@@ -66,7 +78,11 @@
     "example_es": "Soy maestro",
     "example_en": "I am a teacher",
     "lesson": 3,
-    "tags": ["HSK1::Lesson3", "nouns", "people"],
+    "tags": [
+      "HSK1::Lesson3",
+      "nouns",
+      "people"
+    ],
     "icon": "teacher"
   },
   {
@@ -80,7 +96,11 @@
     "example_es": "Él no es estudiante",
     "example_en": "He is not a student",
     "lesson": 3,
-    "tags": ["HSK1::Lesson3", "nouns", "people"],
+    "tags": [
+      "HSK1::Lesson3",
+      "nouns",
+      "people"
+    ],
     "icon": "student"
   },
   {
@@ -94,7 +114,11 @@
     "example_es": "Una persona",
     "example_en": "One person",
     "lesson": 3,
-    "tags": ["HSK1::Lesson3", "nouns", "people"],
+    "tags": [
+      "HSK1::Lesson3",
+      "nouns",
+      "people"
+    ],
     "icon": "person"
   },
   {
@@ -108,7 +132,11 @@
     "example_es": "Somos chinos",
     "example_en": "We are Chinese",
     "lesson": 3,
-    "tags": ["HSK1::Lesson3", "places", "countries"],
+    "tags": [
+      "HSK1::Lesson3",
+      "places",
+      "countries"
+    ],
     "icon": "china"
   },
   {
@@ -122,7 +150,11 @@
     "example_es": "Li Yue no es americana",
     "example_en": "Li Yue is not American",
     "lesson": 3,
-    "tags": ["HSK1::Lesson3", "places", "countries"],
+    "tags": [
+      "HSK1::Lesson3",
+      "places",
+      "countries"
+    ],
     "icon": "usa"
   },
   {
@@ -136,7 +168,10 @@
     "example_es": "¿Quién es él?",
     "example_en": "Who is he?",
     "lesson": 4,
-    "tags": ["HSK1::Lesson4", "question-words"],
+    "tags": [
+      "HSK1::Lesson4",
+      "question-words"
+    ],
     "icon": "question"
   },
   {
@@ -150,7 +185,11 @@
     "example_es": "Él es mi maestro",
     "example_en": "He is my teacher",
     "lesson": 4,
-    "tags": ["HSK1::Lesson4", "grammar", "particles"],
+    "tags": [
+      "HSK1::Lesson4",
+      "grammar",
+      "particles"
+    ],
     "icon": "grammar"
   },
   {
@@ -164,7 +203,11 @@
     "example_es": "Maestro de chino",
     "example_en": "Chinese language teacher",
     "lesson": 4,
-    "tags": ["HSK1::Lesson4", "nouns", "language"],
+    "tags": [
+      "HSK1::Lesson4",
+      "nouns",
+      "language"
+    ],
     "icon": "speaking"
   },
   {
@@ -178,7 +221,10 @@
     "example_es": "¿De qué país eres?",
     "example_en": "Which country are you from?",
     "lesson": 4,
-    "tags": ["HSK1::Lesson4", "question-words"],
+    "tags": [
+      "HSK1::Lesson4",
+      "question-words"
+    ],
     "icon": "question"
   },
   {
@@ -192,7 +238,11 @@
     "example_es": "Soy americano, ¿y tú?",
     "example_en": "I am American, and you?",
     "lesson": 4,
-    "tags": ["HSK1::Lesson4", "grammar", "particles"],
+    "tags": [
+      "HSK1::Lesson4",
+      "grammar",
+      "particles"
+    ],
     "icon": "grammar"
   },
   {
@@ -206,7 +256,11 @@
     "example_es": "¿Quién es tu compañero de clase?",
     "example_en": "Who is your classmate?",
     "lesson": 4,
-    "tags": ["HSK1::Lesson4", "nouns", "people"],
+    "tags": [
+      "HSK1::Lesson4",
+      "nouns",
+      "people"
+    ],
     "icon": "student"
   },
   {
@@ -220,7 +274,11 @@
     "example_es": "Ustedes no son mis amigos",
     "example_en": "You are not my friends",
     "lesson": 4,
-    "tags": ["HSK1::Lesson4", "nouns", "people"],
+    "tags": [
+      "HSK1::Lesson4",
+      "nouns",
+      "people"
+    ],
     "icon": "person"
   },
   {
@@ -234,7 +292,11 @@
     "example_es": "Nuestra familia/hogar",
     "example_en": "Our home/family",
     "lesson": 5,
-    "tags": ["HSK1::Lesson5", "nouns", "family"],
+    "tags": [
+      "HSK1::Lesson5",
+      "nouns",
+      "family"
+    ],
     "icon": "house"
   },
   {
@@ -248,7 +310,10 @@
     "example_es": "El maestro tiene cinco estudiantes",
     "example_en": "The teacher has five students",
     "lesson": 5,
-    "tags": ["HSK1::Lesson5", "verbs"],
+    "tags": [
+      "HSK1::Lesson5",
+      "verbs"
+    ],
     "icon": "thumbs-up"
   },
   {
@@ -262,7 +327,11 @@
     "example_es": "Mi familia tiene cuatro personas",
     "example_en": "My family has four people",
     "lesson": 5,
-    "tags": ["HSK1::Lesson5", "grammar", "classifiers"],
+    "tags": [
+      "HSK1::Lesson5",
+      "grammar",
+      "classifiers"
+    ],
     "icon": "grammar"
   },
   {
@@ -276,7 +345,11 @@
     "example_es": "Ella no es mi hija",
     "example_en": "She is not my daughter",
     "lesson": 5,
-    "tags": ["HSK1::Lesson5", "nouns", "family"],
+    "tags": [
+      "HSK1::Lesson5",
+      "nouns",
+      "family"
+    ],
     "icon": "girl"
   },
   {
@@ -290,7 +363,11 @@
     "example_es": "¿Cuántas personas hay en tu familia?",
     "example_en": "How many people are in your family?",
     "lesson": 5,
-    "tags": ["HSK1::Lesson5", "question-words", "numbers"],
+    "tags": [
+      "HSK1::Lesson5",
+      "question-words",
+      "numbers"
+    ],
     "icon": "number"
   },
   {
@@ -304,7 +381,11 @@
     "example_es": "¿Cuántos años tienes? Tengo veinte años",
     "example_en": "How old are you? I am twenty years old",
     "lesson": 5,
-    "tags": ["HSK1::Lesson5", "nouns", "age"],
+    "tags": [
+      "HSK1::Lesson5",
+      "nouns",
+      "age"
+    ],
     "icon": "number"
   },
   {
@@ -318,7 +399,11 @@
     "example_es": "Ella ya tiene treinta años",
     "example_en": "She is already thirty years old",
     "lesson": 5,
-    "tags": ["HSK1::Lesson5", "grammar", "particles"],
+    "tags": [
+      "HSK1::Lesson5",
+      "grammar",
+      "particles"
+    ],
     "icon": "grammar"
   },
   {
@@ -332,7 +417,11 @@
     "example_es": "¿Cuántos años tienes este año?",
     "example_en": "How old are you this year?",
     "lesson": 5,
-    "tags": ["HSK1::Lesson5", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson5",
+      "time",
+      "nouns"
+    ],
     "icon": "calendar"
   },
   {
@@ -346,7 +435,11 @@
     "example_es": "¿Qué edad tienen este año?",
     "example_en": "How old are you all this year?",
     "lesson": 5,
-    "tags": ["HSK1::Lesson5", "question-words", "age"],
+    "tags": [
+      "HSK1::Lesson5",
+      "question-words",
+      "age"
+    ],
     "icon": "question"
   },
   {
@@ -360,7 +453,11 @@
     "example_es": "Ella puede hablar chino",
     "example_en": "She can speak Chinese",
     "lesson": 6,
-    "tags": ["HSK1::Lesson6", "verbs", "modal"],
+    "tags": [
+      "HSK1::Lesson6",
+      "verbs",
+      "modal"
+    ],
     "icon": "star"
   },
   {
@@ -374,7 +471,10 @@
     "example_es": "El maestro Li habla chino",
     "example_en": "Teacher Li speaks Chinese",
     "lesson": 6,
-    "tags": ["HSK1::Lesson6", "verbs"],
+    "tags": [
+      "HSK1::Lesson6",
+      "verbs"
+    ],
     "icon": "speaking"
   },
   {
@@ -388,7 +488,11 @@
     "example_es": "Mi mamá no sabe hablar chino",
     "example_en": "My mom cannot speak Chinese",
     "lesson": 6,
-    "tags": ["HSK1::Lesson6", "nouns", "family"],
+    "tags": [
+      "HSK1::Lesson6",
+      "nouns",
+      "family"
+    ],
     "icon": "woman"
   },
   {
@@ -402,7 +506,11 @@
     "example_es": "Comida china",
     "example_en": "Chinese food",
     "lesson": 6,
-    "tags": ["HSK1::Lesson6", "nouns", "food"],
+    "tags": [
+      "HSK1::Lesson6",
+      "nouns",
+      "food"
+    ],
     "icon": "food"
   },
   {
@@ -416,7 +524,11 @@
     "example_es": "La comida mexicana es deliciosa",
     "example_en": "Mexican food is delicious",
     "lesson": 6,
-    "tags": ["HSK1::Lesson6", "adjectives", "food"],
+    "tags": [
+      "HSK1::Lesson6",
+      "adjectives",
+      "food"
+    ],
     "icon": "delicious"
   },
   {
@@ -430,7 +542,10 @@
     "example_es": "¿Ella sabe hacer comida china?",
     "example_en": "Can she cook Chinese food?",
     "lesson": 6,
-    "tags": ["HSK1::Lesson6", "verbs"],
+    "tags": [
+      "HSK1::Lesson6",
+      "verbs"
+    ],
     "icon": "cooking"
   },
   {
@@ -444,7 +559,10 @@
     "example_es": "La hija escribe su nombre",
     "example_en": "The daughter writes his name",
     "lesson": 6,
-    "tags": ["HSK1::Lesson6", "verbs"],
+    "tags": [
+      "HSK1::Lesson6",
+      "verbs"
+    ],
     "icon": "writing"
   },
   {
@@ -458,7 +576,11 @@
     "example_es": "¿Sabes escribir caracteres chinos?",
     "example_en": "Can you write Chinese characters?",
     "lesson": 6,
-    "tags": ["HSK1::Lesson6", "nouns", "language"],
+    "tags": [
+      "HSK1::Lesson6",
+      "nouns",
+      "language"
+    ],
     "icon": "writing"
   },
   {
@@ -472,7 +594,11 @@
     "example_es": "Carácter chino",
     "example_en": "Chinese character",
     "lesson": 6,
-    "tags": ["HSK1::Lesson6", "nouns", "language"],
+    "tags": [
+      "HSK1::Lesson6",
+      "nouns",
+      "language"
+    ],
     "icon": "writing"
   },
   {
@@ -486,7 +612,10 @@
     "example_es": "¿Cómo se escribe este carácter?",
     "example_en": "How do you write this character?",
     "lesson": 6,
-    "tags": ["HSK1::Lesson6", "question-words"],
+    "tags": [
+      "HSK1::Lesson6",
+      "question-words"
+    ],
     "icon": "question"
   },
   {
@@ -500,7 +629,10 @@
     "example_es": "Sé leer caracteres chinos, pero no escribirlos",
     "example_en": "I can read Chinese characters, but not write them",
     "lesson": 6,
-    "tags": ["HSK1::Lesson6", "verbs"],
+    "tags": [
+      "HSK1::Lesson6",
+      "verbs"
+    ],
     "icon": "reading"
   },
   {
@@ -514,7 +646,11 @@
     "example_es": "Por favor escribe tu nombre",
     "example_en": "Please write your name",
     "lesson": 7,
-    "tags": ["HSK1::Lesson7", "grammar", "politeness"],
+    "tags": [
+      "HSK1::Lesson7",
+      "grammar",
+      "politeness"
+    ],
     "icon": "grammar"
   },
   {
@@ -528,7 +664,10 @@
     "example_es": "Disculpe, ¿cómo se llama usted?",
     "example_en": "Excuse me, what is your name?",
     "lesson": 7,
-    "tags": ["HSK1::Lesson7", "verbs"],
+    "tags": [
+      "HSK1::Lesson7",
+      "verbs"
+    ],
     "icon": "question"
   },
   {
@@ -542,7 +681,11 @@
     "example_es": "Hoy es el día 8",
     "example_en": "Today is the 8th",
     "lesson": 7,
-    "tags": ["HSK1::Lesson7", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson7",
+      "time",
+      "nouns"
+    ],
     "icon": "calendar"
   },
   {
@@ -556,7 +699,11 @@
     "example_es": "Hoy es el 27 de abril",
     "example_en": "Today is April 27th",
     "lesson": 7,
-    "tags": ["HSK1::Lesson7", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson7",
+      "time",
+      "nouns"
+    ],
     "icon": "calendar"
   },
   {
@@ -570,7 +717,11 @@
     "example_es": "El viernes estudio chino",
     "example_en": "On Friday I study Chinese",
     "lesson": 7,
-    "tags": ["HSK1::Lesson7", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson7",
+      "time",
+      "nouns"
+    ],
     "icon": "calendar"
   },
   {
@@ -584,7 +735,11 @@
     "example_es": "¿Qué día fue ayer? Sábado",
     "example_en": "What day was yesterday? Saturday",
     "lesson": 7,
-    "tags": ["HSK1::Lesson7", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson7",
+      "time",
+      "nouns"
+    ],
     "icon": "calendar"
   },
   {
@@ -598,7 +753,11 @@
     "example_es": "¿A qué mes y día es mañana?",
     "example_en": "What month and day is tomorrow?",
     "lesson": 7,
-    "tags": ["HSK1::Lesson7", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson7",
+      "time",
+      "nouns"
+    ],
     "icon": "calendar"
   },
   {
@@ -612,7 +771,10 @@
     "example_es": "Vamos a hacer comida china",
     "example_en": "We are going to make Chinese food",
     "lesson": 7,
-    "tags": ["HSK1::Lesson7", "verbs"],
+    "tags": [
+      "HSK1::Lesson7",
+      "verbs"
+    ],
     "icon": "go"
   },
   {
@@ -626,7 +788,11 @@
     "example_es": "¿Qué vas a hacer en la escuela?",
     "example_en": "What are you going to do at school?",
     "lesson": 7,
-    "tags": ["HSK1::Lesson7", "places", "nouns"],
+    "tags": [
+      "HSK1::Lesson7",
+      "places",
+      "nouns"
+    ],
     "icon": "school"
   },
   {
@@ -640,7 +806,10 @@
     "example_es": "Estoy leyendo un libro",
     "example_en": "I am reading a book",
     "lesson": 7,
-    "tags": ["HSK1::Lesson7", "verbs"],
+    "tags": [
+      "HSK1::Lesson7",
+      "verbs"
+    ],
     "icon": "looking"
   },
   {
@@ -654,7 +823,11 @@
     "example_es": "Ella lee un libro",
     "example_en": "She reads a book",
     "lesson": 7,
-    "tags": ["HSK1::Lesson7", "nouns", "objects"],
+    "tags": [
+      "HSK1::Lesson7",
+      "nouns",
+      "objects"
+    ],
     "icon": "book"
   },
   {
@@ -668,7 +841,11 @@
     "example_es": "Quiero ir a Estados Unidos",
     "example_en": "I want to go to the United States",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "verbs", "modal"],
+    "tags": [
+      "HSK1::Lesson8",
+      "verbs",
+      "modal"
+    ],
     "icon": "thinking"
   },
   {
@@ -682,7 +859,10 @@
     "example_es": "¿Qué quieres beber?",
     "example_en": "What do you want to drink?",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "verbs"],
+    "tags": [
+      "HSK1::Lesson8",
+      "verbs"
+    ],
     "icon": "drinking"
   },
   {
@@ -696,7 +876,11 @@
     "example_es": "No queremos tomar té",
     "example_en": "We don't want to drink tea",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "nouns", "food"],
+    "tags": [
+      "HSK1::Lesson8",
+      "nouns",
+      "food"
+    ],
     "icon": "tea"
   },
   {
@@ -710,7 +894,10 @@
     "example_es": "¿Qué quieren comer?",
     "example_en": "What do you all want to eat?",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "verbs"],
+    "tags": [
+      "HSK1::Lesson8",
+      "verbs"
+    ],
     "icon": "eating"
   },
   {
@@ -724,7 +911,11 @@
     "example_es": "Queremos comer arroz",
     "example_en": "We want to eat rice",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "nouns", "food"],
+    "tags": [
+      "HSK1::Lesson8",
+      "nouns",
+      "food"
+    ],
     "icon": "rice"
   },
   {
@@ -738,7 +929,11 @@
     "example_es": "Por la tarde ella hace arroz",
     "example_en": "In the afternoon she makes rice",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson8",
+      "time",
+      "nouns"
+    ],
     "icon": "clock"
   },
   {
@@ -752,7 +947,11 @@
     "example_es": "¿Quieres ir a la tienda?",
     "example_en": "Do you want to go to the store?",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "places", "nouns"],
+    "tags": [
+      "HSK1::Lesson8",
+      "places",
+      "nouns"
+    ],
     "icon": "shop"
   },
   {
@@ -766,7 +965,10 @@
     "example_es": "Voy a la tienda a comprar comida china",
     "example_en": "I go to the store to buy Chinese food",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "verbs"],
+    "tags": [
+      "HSK1::Lesson8",
+      "verbs"
+    ],
     "icon": "buying"
   },
   {
@@ -780,7 +982,11 @@
     "example_es": "Ella tiene tres hijas",
     "example_en": "She has three daughters",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "grammar", "classifiers"],
+    "tags": [
+      "HSK1::Lesson8",
+      "grammar",
+      "classifiers"
+    ],
     "icon": "grammar"
   },
   {
@@ -794,7 +1000,11 @@
     "example_es": "Compré cuatro vasos",
     "example_en": "I bought four cups",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "nouns", "objects"],
+    "tags": [
+      "HSK1::Lesson8",
+      "nouns",
+      "objects"
+    ],
     "icon": "cup"
   },
   {
@@ -808,7 +1018,11 @@
     "example_es": "Este plato es muy delicioso",
     "example_en": "This dish is very delicious",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "grammar", "demonstratives"],
+    "tags": [
+      "HSK1::Lesson8",
+      "grammar",
+      "demonstratives"
+    ],
     "icon": "grammar"
   },
   {
@@ -822,7 +1036,11 @@
     "example_es": "¿Cuántos estudiantes hay en tu escuela?",
     "example_en": "How many students are in your school?",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "question-words", "numbers"],
+    "tags": [
+      "HSK1::Lesson8",
+      "question-words",
+      "numbers"
+    ],
     "icon": "question"
   },
   {
@@ -836,7 +1054,10 @@
     "example_es": "No tengo dinero para comprar libros",
     "example_en": "I don't have money to buy books",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "nouns"],
+    "tags": [
+      "HSK1::Lesson8",
+      "nouns"
+    ],
     "icon": "money"
   },
   {
@@ -850,7 +1071,11 @@
     "example_es": "¿Cuánto cuesta el arroz?",
     "example_en": "How much does the rice cost?",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "question-words", "money"],
+    "tags": [
+      "HSK1::Lesson8",
+      "question-words",
+      "money"
+    ],
     "icon": "money"
   },
   {
@@ -864,7 +1089,11 @@
     "example_es": "Este vaso cuesta cincuenta yuanes",
     "example_en": "This cup costs fifty yuan",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "nouns", "money"],
+    "tags": [
+      "HSK1::Lesson8",
+      "nouns",
+      "money"
+    ],
     "icon": "money"
   },
   {
@@ -878,7 +1107,11 @@
     "example_es": "¿Ése es tu maestro?",
     "example_en": "Is that your teacher?",
     "lesson": 8,
-    "tags": ["HSK1::Lesson8", "grammar", "demonstratives"],
+    "tags": [
+      "HSK1::Lesson8",
+      "grammar",
+      "demonstratives"
+    ],
     "icon": "grammar"
   },
   {
@@ -892,7 +1125,10 @@
     "example_es": "Este carácter chino es muy pequeño",
     "example_en": "This Chinese character is very small",
     "lesson": 9,
-    "tags": ["HSK1::Lesson9", "adjectives"],
+    "tags": [
+      "HSK1::Lesson9",
+      "adjectives"
+    ],
     "icon": "small"
   },
   {
@@ -906,7 +1142,11 @@
     "example_es": "Ése es mi perrito",
     "example_en": "That is my little dog",
     "lesson": 9,
-    "tags": ["HSK1::Lesson9", "nouns", "animals"],
+    "tags": [
+      "HSK1::Lesson9",
+      "nouns",
+      "animals"
+    ],
     "icon": "dog"
   },
   {
@@ -920,7 +1160,11 @@
     "example_es": "El maestro Li está en la escuela",
     "example_en": "Teacher Li is at school",
     "lesson": 9,
-    "tags": ["HSK1::Lesson9", "verbs", "prepositions"],
+    "tags": [
+      "HSK1::Lesson9",
+      "verbs",
+      "prepositions"
+    ],
     "icon": "building"
   },
   {
@@ -934,7 +1178,11 @@
     "example_es": "Tu perrito está allá",
     "example_en": "Your little dog is there",
     "lesson": 9,
-    "tags": ["HSK1::Lesson9", "places", "demonstratives"],
+    "tags": [
+      "HSK1::Lesson9",
+      "places",
+      "demonstratives"
+    ],
     "icon": "go"
   },
   {
@@ -948,7 +1196,11 @@
     "example_es": "Hoy compré una silla",
     "example_en": "Today I bought a chair",
     "lesson": 9,
-    "tags": ["HSK1::Lesson9", "nouns", "furniture"],
+    "tags": [
+      "HSK1::Lesson9",
+      "nouns",
+      "furniture"
+    ],
     "icon": "chair"
   },
   {
@@ -962,7 +1214,11 @@
     "example_es": "Debajo de la silla hay un gato",
     "example_en": "Under the chair there is a cat",
     "lesson": 9,
-    "tags": ["HSK1::Lesson9", "places", "directional"],
+    "tags": [
+      "HSK1::Lesson9",
+      "places",
+      "directional"
+    ],
     "icon": "building"
   },
   {
@@ -976,7 +1232,11 @@
     "example_es": "¿Dónde están los estudiantes?",
     "example_en": "Where are the students?",
     "lesson": 9,
-    "tags": ["HSK1::Lesson9", "question-words", "places"],
+    "tags": [
+      "HSK1::Lesson9",
+      "question-words",
+      "places"
+    ],
     "icon": "question"
   },
   {
@@ -990,7 +1250,11 @@
     "example_es": "¿Trabajas mañana?",
     "example_en": "Do you work tomorrow?",
     "lesson": 9,
-    "tags": ["HSK1::Lesson9", "verbs", "nouns"],
+    "tags": [
+      "HSK1::Lesson9",
+      "verbs",
+      "nouns"
+    ],
     "icon": "working"
   },
   {
@@ -1004,7 +1268,11 @@
     "example_es": "Nuestro hijo no trabaja",
     "example_en": "Our son does not work",
     "lesson": 9,
-    "tags": ["HSK1::Lesson9", "nouns", "family"],
+    "tags": [
+      "HSK1::Lesson9",
+      "nouns",
+      "family"
+    ],
     "icon": "boy"
   },
   {
@@ -1018,7 +1286,11 @@
     "example_es": "La hija no trabaja en el hospital",
     "example_en": "The daughter does not work at the hospital",
     "lesson": 9,
-    "tags": ["HSK1::Lesson9", "places", "nouns"],
+    "tags": [
+      "HSK1::Lesson9",
+      "places",
+      "nouns"
+    ],
     "icon": "hospital"
   },
   {
@@ -1032,7 +1304,12 @@
     "example_es": "Mi mamá es doctora",
     "example_en": "My mom is a doctor",
     "lesson": 9,
-    "tags": ["HSK1::Lesson9", "nouns", "people", "jobs"],
+    "tags": [
+      "HSK1::Lesson9",
+      "nouns",
+      "people",
+      "jobs"
+    ],
     "icon": "doctor"
   },
   {
@@ -1046,7 +1323,11 @@
     "example_es": "¿Dónde está mi papá?",
     "example_en": "Where is my dad?",
     "lesson": 9,
-    "tags": ["HSK1::Lesson9", "nouns", "family"],
+    "tags": [
+      "HSK1::Lesson9",
+      "nouns",
+      "family"
+    ],
     "icon": "man"
   },
   {
@@ -1060,7 +1341,11 @@
     "example_es": "¿Cuánto cuesta esta mesa?",
     "example_en": "How much does this table cost?",
     "lesson": 10,
-    "tags": ["HSK1::Lesson10", "nouns", "furniture"],
+    "tags": [
+      "HSK1::Lesson10",
+      "nouns",
+      "furniture"
+    ],
     "icon": "table"
   },
   {
@@ -1074,7 +1359,11 @@
     "example_es": "Encima de la silla hay un gato",
     "example_en": "On the chair there is a cat",
     "lesson": 10,
-    "tags": ["HSK1::Lesson10", "places", "directional"],
+    "tags": [
+      "HSK1::Lesson10",
+      "places",
+      "directional"
+    ],
     "icon": "building"
   },
   {
@@ -1088,7 +1377,11 @@
     "example_es": "Esa computadora es muy buena",
     "example_en": "That computer is very good",
     "lesson": 10,
-    "tags": ["HSK1::Lesson10", "nouns", "objects"],
+    "tags": [
+      "HSK1::Lesson10",
+      "nouns",
+      "objects"
+    ],
     "icon": "computer"
   },
   {
@@ -1102,7 +1395,11 @@
     "example_es": "Ellos compraron una computadora y una mesa",
     "example_en": "They bought a computer and a table",
     "lesson": 10,
-    "tags": ["HSK1::Lesson10", "grammar", "conjunctions"],
+    "tags": [
+      "HSK1::Lesson10",
+      "grammar",
+      "conjunctions"
+    ],
     "icon": "grammar"
   },
   {
@@ -1116,7 +1413,11 @@
     "example_es": "Ella lee un libro",
     "example_en": "She reads one book",
     "lesson": 10,
-    "tags": ["HSK1::Lesson10", "grammar", "classifiers"],
+    "tags": [
+      "HSK1::Lesson10",
+      "grammar",
+      "classifiers"
+    ],
     "icon": "book"
   },
   {
@@ -1130,7 +1431,11 @@
     "example_es": "Dentro de la escuela hay tres perros",
     "example_en": "Inside the school there are three dogs",
     "lesson": 10,
-    "tags": ["HSK1::Lesson10", "places", "directional"],
+    "tags": [
+      "HSK1::Lesson10",
+      "places",
+      "directional"
+    ],
     "icon": "building"
   },
   {
@@ -1144,7 +1449,11 @@
     "example_es": "Enfrente de la mesa hay un libro",
     "example_en": "In front of the table there is a book",
     "lesson": 10,
-    "tags": ["HSK1::Lesson10", "places", "directional"],
+    "tags": [
+      "HSK1::Lesson10",
+      "places",
+      "directional"
+    ],
     "icon": "building"
   },
   {
@@ -1158,7 +1467,11 @@
     "example_es": "Detrás de mí no hay perros",
     "example_en": "Behind me there are no dogs",
     "lesson": 10,
-    "tags": ["HSK1::Lesson10", "places", "directional"],
+    "tags": [
+      "HSK1::Lesson10",
+      "places",
+      "directional"
+    ],
     "icon": "building"
   },
   {
@@ -1172,7 +1485,11 @@
     "example_es": "Aquí no hay hospital",
     "example_en": "There is no hospital here",
     "lesson": 10,
-    "tags": ["HSK1::Lesson10", "places", "demonstratives"],
+    "tags": [
+      "HSK1::Lesson10",
+      "places",
+      "demonstratives"
+    ],
     "icon": "building"
   },
   {
@@ -1186,7 +1503,11 @@
     "example_es": "¿Tienes hijo o no?",
     "example_en": "Do you have a son or not?",
     "lesson": 10,
-    "tags": ["HSK1::Lesson10", "verbs", "negation"],
+    "tags": [
+      "HSK1::Lesson10",
+      "verbs",
+      "negation"
+    ],
     "icon": "grammar"
   },
   {
@@ -1200,7 +1521,11 @@
     "example_es": "Hoy no puedo trabajar",
     "example_en": "Today I cannot work",
     "lesson": 10,
-    "tags": ["HSK1::Lesson10", "verbs", "modal"],
+    "tags": [
+      "HSK1::Lesson10",
+      "verbs",
+      "modal"
+    ],
     "icon": "star"
   },
   {
@@ -1214,7 +1539,10 @@
     "example_es": "¿Podemos sentarnos aquí?",
     "example_en": "Can we sit here?",
     "lesson": 10,
-    "tags": ["HSK1::Lesson10", "verbs"],
+    "tags": [
+      "HSK1::Lesson10",
+      "verbs"
+    ],
     "icon": "sitting"
   },
   {
@@ -1228,7 +1556,11 @@
     "example_es": "¿Qué hora es ahora?",
     "example_en": "What time is it now?",
     "lesson": 11,
-    "tags": ["HSK1::Lesson11", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson11",
+      "time",
+      "nouns"
+    ],
     "icon": "clock"
   },
   {
@@ -1242,7 +1574,11 @@
     "example_es": "Ahora son las diez",
     "example_en": "It is now ten o'clock",
     "lesson": 11,
-    "tags": ["HSK1::Lesson11", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson11",
+      "time",
+      "nouns"
+    ],
     "icon": "clock"
   },
   {
@@ -1256,7 +1592,11 @@
     "example_es": "Las tres y veinte",
     "example_en": "Three twenty",
     "lesson": 11,
-    "tags": ["HSK1::Lesson11", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson11",
+      "time",
+      "nouns"
+    ],
     "icon": "clock"
   },
   {
@@ -1270,7 +1610,11 @@
     "example_es": "Al mediodía vamos a estudiar chino",
     "example_en": "At noon we go to study Chinese",
     "lesson": 11,
-    "tags": ["HSK1::Lesson11", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson11",
+      "time",
+      "nouns"
+    ],
     "icon": "clock"
   },
   {
@@ -1284,7 +1628,11 @@
     "example_es": "¿A qué hora vamos a comer?",
     "example_en": "What time do we go to eat?",
     "lesson": 11,
-    "tags": ["HSK1::Lesson11", "verbs", "food"],
+    "tags": [
+      "HSK1::Lesson11",
+      "verbs",
+      "food"
+    ],
     "icon": "eating"
   },
   {
@@ -1298,7 +1646,11 @@
     "example_es": "¿Cuándo vas a trabajar?",
     "example_en": "When do you go to work?",
     "lesson": 11,
-    "tags": ["HSK1::Lesson11", "question-words", "time"],
+    "tags": [
+      "HSK1::Lesson11",
+      "question-words",
+      "time"
+    ],
     "icon": "question"
   },
   {
@@ -1312,7 +1664,10 @@
     "example_es": "Mañana volvemos a casa",
     "example_en": "Tomorrow we return home",
     "lesson": 11,
-    "tags": ["HSK1::Lesson11", "verbs"],
+    "tags": [
+      "HSK1::Lesson11",
+      "verbs"
+    ],
     "icon": "return"
   },
   {
@@ -1326,7 +1681,11 @@
     "example_es": "Esta película es muy buena",
     "example_en": "This movie is very good",
     "lesson": 11,
-    "tags": ["HSK1::Lesson11", "nouns", "entertainment"],
+    "tags": [
+      "HSK1::Lesson11",
+      "nouns",
+      "entertainment"
+    ],
     "icon": "movie"
   },
   {
@@ -1340,7 +1699,10 @@
     "example_es": "¿Dónde vives?",
     "example_en": "Where do you live?",
     "lesson": 11,
-    "tags": ["HSK1::Lesson11", "verbs"],
+    "tags": [
+      "HSK1::Lesson11",
+      "verbs"
+    ],
     "icon": "house"
   },
   {
@@ -1354,7 +1716,11 @@
     "example_es": "Regreso a casa antes de las tres",
     "example_en": "I return home before three o'clock",
     "lesson": 11,
-    "tags": ["HSK1::Lesson11", "time", "directional"],
+    "tags": [
+      "HSK1::Lesson11",
+      "time",
+      "directional"
+    ],
     "icon": "clock"
   },
   {
@@ -1368,7 +1734,11 @@
     "example_es": "Ellos van a Beijing el lunes",
     "example_en": "They go to Beijing on Monday",
     "lesson": 11,
-    "tags": ["HSK1::Lesson11", "places", "cities"],
+    "tags": [
+      "HSK1::Lesson11",
+      "places",
+      "cities"
+    ],
     "icon": "beijing"
   },
   {
@@ -1382,7 +1752,11 @@
     "example_es": "Ayer al mediodía llovió",
     "example_en": "Yesterday at noon it rained",
     "lesson": 12,
-    "tags": ["HSK1::Lesson12", "verbs", "weather"],
+    "tags": [
+      "HSK1::Lesson12",
+      "verbs",
+      "weather"
+    ],
     "icon": "rain"
   },
   {
@@ -1396,7 +1770,12 @@
     "example_es": "¿Dónde está la señorita Wang?",
     "example_en": "Where is Miss Wang?",
     "lesson": 12,
-    "tags": ["HSK1::Lesson12", "nouns", "people", "titles"],
+    "tags": [
+      "HSK1::Lesson12",
+      "nouns",
+      "people",
+      "titles"
+    ],
     "icon": "woman"
   },
   {
@@ -1410,7 +1789,10 @@
     "example_es": "¿Cuándo vienes a la escuela?",
     "example_en": "When do you come to school?",
     "lesson": 12,
-    "tags": ["HSK1::Lesson12", "verbs"],
+    "tags": [
+      "HSK1::Lesson12",
+      "verbs"
+    ],
     "icon": "come"
   },
   {
@@ -1424,7 +1806,10 @@
     "example_es": "¿Cómo estás hoy?",
     "example_en": "How are you today?",
     "lesson": 12,
-    "tags": ["HSK1::Lesson12", "question-words"],
+    "tags": [
+      "HSK1::Lesson12",
+      "question-words"
+    ],
     "icon": "question"
   },
   {
@@ -1438,7 +1823,11 @@
     "example_es": "Ahora no estoy bien de salud",
     "example_en": "Right now my health is not good",
     "lesson": 12,
-    "tags": ["HSK1::Lesson12", "nouns", "health"],
+    "tags": [
+      "HSK1::Lesson12",
+      "nouns",
+      "health"
+    ],
     "icon": "body"
   },
   {
@@ -1452,7 +1841,11 @@
     "example_es": "Leí estos libros",
     "example_en": "I read these books",
     "lesson": 12,
-    "tags": ["HSK1::Lesson12", "grammar", "quantifiers"],
+    "tags": [
+      "HSK1::Lesson12",
+      "grammar",
+      "quantifiers"
+    ],
     "icon": "some"
   },
   {
@@ -1466,7 +1859,11 @@
     "example_es": "¿Comes fruta?",
     "example_en": "Do you eat fruit?",
     "lesson": 12,
-    "tags": ["HSK1::Lesson12", "nouns", "food"],
+    "tags": [
+      "HSK1::Lesson12",
+      "nouns",
+      "food"
+    ],
     "icon": "fruit"
   },
   {
@@ -1480,7 +1877,11 @@
     "example_es": "No bebí agua",
     "example_en": "I didn't drink water",
     "lesson": 12,
-    "tags": ["HSK1::Lesson12", "nouns", "food"],
+    "tags": [
+      "HSK1::Lesson12",
+      "nouns",
+      "food"
+    ],
     "icon": "water"
   },
   {
@@ -1494,7 +1895,11 @@
     "example_es": "Come más fruta",
     "example_en": "Eat more fruit",
     "lesson": 12,
-    "tags": ["HSK1::Lesson12", "adjectives", "quantifiers"],
+    "tags": [
+      "HSK1::Lesson12",
+      "adjectives",
+      "quantifiers"
+    ],
     "icon": "many"
   },
   {
@@ -1508,7 +1913,11 @@
     "example_es": "¿Aló, quién habla?",
     "example_en": "Hello, who is this?",
     "lesson": 13,
-    "tags": ["HSK1::Lesson13", "interjections", "phone"],
+    "tags": [
+      "HSK1::Lesson13",
+      "interjections",
+      "phone"
+    ],
     "icon": "calling"
   },
   {
@@ -1522,7 +1931,11 @@
     "example_es": "También vi esta película",
     "example_en": "I also watched this movie",
     "lesson": 13,
-    "tags": ["HSK1::Lesson13", "grammar", "adverbs"],
+    "tags": [
+      "HSK1::Lesson13",
+      "grammar",
+      "adverbs"
+    ],
     "icon": "grammar"
   },
   {
@@ -1536,7 +1949,11 @@
     "example_es": "¿Qué harás mañana por la mañana?",
     "example_en": "What will you do tomorrow morning?",
     "lesson": 13,
-    "tags": ["HSK1::Lesson13", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson13",
+      "time",
+      "nouns"
+    ],
     "icon": "clock"
   },
   {
@@ -1550,7 +1967,10 @@
     "example_es": "Hoy no dormí",
     "example_en": "Today I didn't sleep",
     "lesson": 13,
-    "tags": ["HSK1::Lesson13", "verbs"],
+    "tags": [
+      "HSK1::Lesson13",
+      "verbs"
+    ],
     "icon": "sleeping"
   },
   {
@@ -1564,7 +1984,11 @@
     "example_es": "La hija está viendo televisión",
     "example_en": "The daughter is watching television",
     "lesson": 13,
-    "tags": ["HSK1::Lesson13", "nouns", "objects"],
+    "tags": [
+      "HSK1::Lesson13",
+      "nouns",
+      "objects"
+    ],
     "icon": "television"
   },
   {
@@ -1578,7 +2002,10 @@
     "example_es": "¿Qué te gusta comer?",
     "example_en": "What do you like to eat?",
     "lesson": 13,
-    "tags": ["HSK1::Lesson13", "verbs"],
+    "tags": [
+      "HSK1::Lesson13",
+      "verbs"
+    ],
     "icon": "thumbs-up"
   },
   {
@@ -1592,7 +2019,10 @@
     "example_es": "Él me dio este libro",
     "example_en": "He gave me this book",
     "lesson": 13,
-    "tags": ["HSK1::Lesson13", "verbs"],
+    "tags": [
+      "HSK1::Lesson13",
+      "verbs"
+    ],
     "icon": "thumbs-up"
   },
   {
@@ -1606,7 +2036,11 @@
     "example_es": "¿Le llamaste a la señorita?",
     "example_en": "Did you call Miss?",
     "lesson": 13,
-    "tags": ["HSK1::Lesson13", "verbs", "phone"],
+    "tags": [
+      "HSK1::Lesson13",
+      "verbs",
+      "phone"
+    ],
     "icon": "calling"
   },
   {
@@ -1620,7 +2054,11 @@
     "example_es": "Vamos a Beijing, ¿sí?",
     "example_en": "Let's go to Beijing",
     "lesson": 13,
-    "tags": ["HSK1::Lesson13", "grammar", "particles"],
+    "tags": [
+      "HSK1::Lesson13",
+      "grammar",
+      "particles"
+    ],
     "icon": "grammar"
   },
   {
@@ -1634,7 +2072,10 @@
     "example_es": "Mañana voy a comprar cosas",
     "example_en": "Tomorrow I am going to buy things",
     "lesson": 14,
-    "tags": ["HSK1::Lesson14", "nouns"],
+    "tags": [
+      "HSK1::Lesson14",
+      "nouns"
+    ],
     "icon": "buying"
   },
   {
@@ -1648,7 +2089,11 @@
     "example_es": "Ella compró un poco de manzanas",
     "example_en": "She bought a little bit of apples",
     "lesson": 14,
-    "tags": ["HSK1::Lesson14", "grammar", "quantifiers"],
+    "tags": [
+      "HSK1::Lesson14",
+      "grammar",
+      "quantifiers"
+    ],
     "icon": "few"
   },
   {
@@ -1662,7 +2107,11 @@
     "example_es": "Esa manzana está muy rica",
     "example_en": "That apple is very delicious",
     "lesson": 14,
-    "tags": ["HSK1::Lesson14", "nouns", "food"],
+    "tags": [
+      "HSK1::Lesson14",
+      "nouns",
+      "food"
+    ],
     "icon": "apple"
   },
   {
@@ -1676,7 +2125,10 @@
     "example_es": "¿Viste al maestro?",
     "example_en": "Did you see the teacher?",
     "lesson": 14,
-    "tags": ["HSK1::Lesson14", "verbs"],
+    "tags": [
+      "HSK1::Lesson14",
+      "verbs"
+    ],
     "icon": "looking"
   },
   {
@@ -1690,7 +2142,12 @@
     "example_es": "El señor Wang no está aquí",
     "example_en": "Mr. Wang is not here",
     "lesson": 14,
-    "tags": ["HSK1::Lesson14", "nouns", "people", "titles"],
+    "tags": [
+      "HSK1::Lesson14",
+      "nouns",
+      "people",
+      "titles"
+    ],
     "icon": "man"
   },
   {
@@ -1704,7 +2161,10 @@
     "example_es": "Por favor abre el libro",
     "example_en": "Please open the book",
     "lesson": 14,
-    "tags": ["HSK1::Lesson14", "verbs"],
+    "tags": [
+      "HSK1::Lesson14",
+      "verbs"
+    ],
     "icon": "open"
   },
   {
@@ -1718,7 +2178,11 @@
     "example_es": "Ella está aprendiendo a manejar",
     "example_en": "She is learning to drive",
     "lesson": 14,
-    "tags": ["HSK1::Lesson14", "nouns", "vehicles"],
+    "tags": [
+      "HSK1::Lesson14",
+      "nouns",
+      "vehicles"
+    ],
     "icon": "car"
   },
   {
@@ -1732,7 +2196,11 @@
     "example_es": "Voy al hospital en diez minutos",
     "example_en": "I will go to the hospital in ten minutes",
     "lesson": 14,
-    "tags": ["HSK1::Lesson14", "time", "directional"],
+    "tags": [
+      "HSK1::Lesson14",
+      "time",
+      "directional"
+    ],
     "icon": "clock"
   },
   {
@@ -1746,7 +2214,10 @@
     "example_es": "¿A qué hora regresas?",
     "example_en": "What time do you come back?",
     "lesson": 14,
-    "tags": ["HSK1::Lesson14", "verbs"],
+    "tags": [
+      "HSK1::Lesson14",
+      "verbs"
+    ],
     "icon": "return"
   },
   {
@@ -1760,7 +2231,11 @@
     "example_es": "Quiero comprar ropa",
     "example_en": "I want to buy clothes",
     "lesson": 14,
-    "tags": ["HSK1::Lesson14", "nouns", "clothing"],
+    "tags": [
+      "HSK1::Lesson14",
+      "nouns",
+      "clothing"
+    ],
     "icon": "clothes"
   },
   {
@@ -1774,7 +2249,11 @@
     "example_es": "¡Tu ropa es muy bonita!",
     "example_en": "Your clothes are so beautiful!",
     "lesson": 14,
-    "tags": ["HSK1::Lesson14", "grammar", "particles"],
+    "tags": [
+      "HSK1::Lesson14",
+      "grammar",
+      "particles"
+    ],
     "icon": "grammar"
   },
   {
@@ -1788,7 +2267,11 @@
     "example_es": "Allá hay poca gente",
     "example_en": "There are few people there",
     "lesson": 14,
-    "tags": ["HSK1::Lesson14", "adjectives", "quantifiers"],
+    "tags": [
+      "HSK1::Lesson14",
+      "adjectives",
+      "quantifiers"
+    ],
     "icon": "few"
   },
   {
@@ -1802,7 +2285,11 @@
     "example_es": "Tengo bastante fruta",
     "example_en": "I have quite a lot of fruit",
     "lesson": 14,
-    "tags": ["HSK1::Lesson14", "adjectives", "quantifiers"],
+    "tags": [
+      "HSK1::Lesson14",
+      "adjectives",
+      "quantifiers"
+    ],
     "icon": "many"
   },
   {
@@ -1816,7 +2303,10 @@
     "example_es": "¿Cómo se conocieron?",
     "example_en": "How did you all meet?",
     "lesson": 15,
-    "tags": ["HSK1::Lesson15", "verbs"],
+    "tags": [
+      "HSK1::Lesson15",
+      "verbs"
+    ],
     "icon": "person"
   },
   {
@@ -1830,7 +2320,11 @@
     "example_es": "El año 2020",
     "example_en": "The year 2020",
     "lesson": 15,
-    "tags": ["HSK1::Lesson15", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson15",
+      "time",
+      "nouns"
+    ],
     "icon": "year"
   },
   {
@@ -1844,7 +2338,11 @@
     "example_es": "¿Cómo se llama tu universidad?",
     "example_en": "What is your university called?",
     "lesson": 15,
-    "tags": ["HSK1::Lesson15", "places", "nouns"],
+    "tags": [
+      "HSK1::Lesson15",
+      "places",
+      "nouns"
+    ],
     "icon": "school"
   },
   {
@@ -1858,7 +2356,11 @@
     "example_es": "Mañana por la tarde vamos al restaurante",
     "example_en": "Tomorrow afternoon we go to the restaurant",
     "lesson": 15,
-    "tags": ["HSK1::Lesson15", "places", "nouns"],
+    "tags": [
+      "HSK1::Lesson15",
+      "places",
+      "nouns"
+    ],
     "icon": "restaurant"
   },
   {
@@ -1872,7 +2374,11 @@
     "example_es": "Vine en taxi",
     "example_en": "I came by taxi",
     "lesson": 15,
-    "tags": ["HSK1::Lesson15", "nouns", "vehicles"],
+    "tags": [
+      "HSK1::Lesson15",
+      "nouns",
+      "vehicles"
+    ],
     "icon": "taxi"
   },
   {
@@ -1886,7 +2392,10 @@
     "example_es": "Vayamos juntos a ver una película",
     "example_en": "Let's go watch a movie together",
     "lesson": 15,
-    "tags": ["HSK1::Lesson15", "adverbs"],
+    "tags": [
+      "HSK1::Lesson15",
+      "adverbs"
+    ],
     "icon": "person"
   },
   {
@@ -1900,7 +2409,11 @@
     "example_es": "¡Hoy estoy muy feliz!",
     "example_en": "Today I am very happy!",
     "lesson": 15,
-    "tags": ["HSK1::Lesson15", "adjectives", "emotions"],
+    "tags": [
+      "HSK1::Lesson15",
+      "adjectives",
+      "emotions"
+    ],
     "icon": "happy"
   },
   {
@@ -1914,7 +2427,10 @@
     "example_es": "Por favor escúchame",
     "example_en": "Please listen to me",
     "lesson": 15,
-    "tags": ["HSK1::Lesson15", "verbs"],
+    "tags": [
+      "HSK1::Lesson15",
+      "verbs"
+    ],
     "icon": "listening"
   },
   {
@@ -1928,7 +2444,11 @@
     "example_es": "Me gustan mucho los aviones",
     "example_en": "I really like airplanes",
     "lesson": 15,
-    "tags": ["HSK1::Lesson15", "nouns", "vehicles"],
+    "tags": [
+      "HSK1::Lesson15",
+      "nouns",
+      "vehicles"
+    ],
     "icon": "airplane"
   },
   {
@@ -1942,7 +2462,11 @@
     "example_es": "Soy estudiante",
     "example_en": "I am a student",
     "lesson": 3,
-    "tags": ["HSK1::Lesson3", "verbs", "core"],
+    "tags": [
+      "HSK1::Lesson3",
+      "verbs",
+      "core"
+    ],
     "icon": "person"
   },
   {
@@ -1956,7 +2480,11 @@
     "example_es": "¿A qué mes y día es hoy?",
     "example_en": "What month and day is today?",
     "lesson": 7,
-    "tags": ["HSK1::Lesson7", "time", "nouns"],
+    "tags": [
+      "HSK1::Lesson7",
+      "time",
+      "nouns"
+    ],
     "icon": "calendar"
   }
 ]

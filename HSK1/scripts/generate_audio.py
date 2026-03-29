@@ -1,15 +1,23 @@
 import logging
 from pathlib import Path
-from elevenlabs import ElevenLabs
+from elevenlabs import ElevenLabs, VoiceSettings
 
 from HSK1.scripts.config import (
     AUDIO_DIR, DATA_FILES, ELEVENLABS_API_KEY,
-    ELEVENLABS_MODEL, ELEVENLABS_VOICE_ID
+    ELEVENLABS_MODEL, ELEVENLABS_VOICE_ID, AUDIO_SPEED,
 )
 from HSK1.scripts.data_loader import load_entries
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
+
+# Voice settings tuned for clear Chinese pronunciation with natural tones
+VOICE_SETTINGS = VoiceSettings(
+    stability=0.75,          # High stability for consistent pronunciation
+    similarity_boost=0.85,   # High similarity to the original voice
+    style=0.15,              # Low style for neutral, clear speech
+    speed=AUDIO_SPEED,       # Slightly slower for learners
+)
 
 
 def generate_audio_file(client: ElevenLabs, text: str, output_path: Path) -> bool:
@@ -22,6 +30,7 @@ def generate_audio_file(client: ElevenLabs, text: str, output_path: Path) -> boo
             voice_id=ELEVENLABS_VOICE_ID,
             model_id=ELEVENLABS_MODEL,
             text=text,
+            voice_settings=VOICE_SETTINGS,
         )
         audio_bytes = b"".join(audio_generator)
         output_path.write_bytes(audio_bytes)
