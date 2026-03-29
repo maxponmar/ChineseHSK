@@ -72,10 +72,10 @@ const cards = [
 ];
 
 const typeLabels: Record<string, { es: string; en: string; color: string }> = {
-  recognition: { es: "Reconocimiento", en: "Recognition", color: "#3498db" },
-  production: { es: "Producción", en: "Production", color: "#2ecc71" },
-  listening: { es: "Escucha", en: "Listening", color: "#9b59b6" },
-  cloze: { es: "Completar", en: "Cloze", color: "#e74c3c" },
+  recognition: { es: "Reconocer", en: "Recognition", color: "#3498db" },
+  production: { es: "Traducir", en: "Translate", color: "#2ecc71" },
+  listening: { es: "Escuchar", en: "Listening", color: "#9b59b6" },
+  cloze: { es: "Completar", en: "Fill in", color: "#e74c3c" },
 };
 ---
 
@@ -214,15 +214,17 @@ const typeLabels: Record<string, { es: string; en: string; color: string }> = {
   }
 
   .card-type-tabs {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 0.5rem;
-    flex-wrap: wrap;
-    justify-content: center;
     margin-bottom: 1rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .type-tab {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     border: 2px solid var(--tab-color);
     border-radius: 24px;
     background: transparent;
@@ -233,7 +235,9 @@ const typeLabels: Record<string, { es: string; en: string; color: string }> = {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 2px;
+    min-height: 52px;
   }
 
   .type-tab:hover, .type-tab.active {
@@ -262,6 +266,7 @@ const typeLabels: Record<string, { es: string; en: string; color: string }> = {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
 
   .flip-card {
@@ -273,7 +278,40 @@ const typeLabels: Record<string, { es: string; en: string; color: string }> = {
     cursor: pointer;
   }
 
-  .flip-card.visible { display: block; }
+  .flip-card.visible {
+    display: block;
+    animation: slideIn 0.35s ease-out;
+  }
+
+  .flip-card.slide-out-left {
+    display: block;
+    animation: slideOutLeft 0.25s ease-in forwards;
+  }
+
+  .flip-card.slide-out-right {
+    display: block;
+    animation: slideOutRight 0.25s ease-in forwards;
+  }
+
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateX(40px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  @keyframes slideInFromLeft {
+    from { opacity: 0; transform: translateX(-40px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  @keyframes slideOutLeft {
+    from { opacity: 1; transform: translateX(0); }
+    to { opacity: 0; transform: translateX(-40px); }
+  }
+
+  @keyframes slideOutRight {
+    from { opacity: 1; transform: translateX(0); }
+    to { opacity: 0; transform: translateX(40px); }
+  }
 
   .flip-card-inner {
     position: relative;
@@ -485,12 +523,25 @@ const typeLabels: Record<string, { es: string; en: string; color: string }> = {
   .anki-good { background: #2ecc71; }
   .anki-easy { background: #3498db; }
 
-  @media (max-width: 480px) {
-    .flip-card { height: 300px; }
+  @media (max-width: 600px) {
+    .card-type-tabs {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 280px;
+    }
+    .flip-card { height: 300px; max-width: 100%; }
     .card-hanzi { font-size: 48px; }
     .card-hanzi-back { font-size: 42px; }
     .card-cloze-sentence { font-size: 20px; }
-    .type-tab { padding: 0.4rem 0.7rem; font-size: 0.75rem; }
+    .type-tab { font-size: 0.8rem; }
+    .anki-card { padding: 16px 12px; }
+    .card-example-zh { font-size: 15px; }
+  }
+
+  @media (max-width: 360px) {
+    .card-hanzi { font-size: 40px; }
+    .card-hanzi-back { font-size: 36px; }
+    .card-meaning-es { font-size: 17px; }
+    .card-cloze-sentence { font-size: 18px; }
   }
 </style>
 
@@ -504,6 +555,7 @@ const typeLabels: Record<string, { es: string; en: string; color: string }> = {
 
     let activeType = 'recognition';
     let activeIndex = 0;
+    let animating = false;
 
     function getCardsForType(type) {
       return Array.from(allCards).filter(c => c.dataset.cardType === type);
@@ -516,20 +568,52 @@ const typeLabels: Record<string, { es: string; en: string; color: string }> = {
       }
     }
 
-    function showCard() {
+    function showCard(direction) {
+      if (animating) return;
       const typeCards = getCardsForType(activeType);
-      allCards.forEach(c => { c.classList.remove('visible', 'flipped'); });
-      if (typeCards[activeIndex]) {
-        typeCards[activeIndex].classList.add('visible');
-        // Auto-play audio for listening cards on front
-        if (activeType === 'listening') {
-          const audioFile = typeCards[activeIndex].dataset.audioWord;
-          if (audioFile) {
-            setTimeout(() => playAudio(basePath + '/audio/' + audioFile + '.mp3'), 300);
+      const currentVisible = document.querySelector('.flip-card.visible');
+
+      if (currentVisible && direction) {
+        animating = true;
+        const slideOut = direction === 'next' ? 'slide-out-left' : 'slide-out-right';
+        const slideIn = direction === 'next' ? 'slideIn' : 'slideInFromLeft';
+
+        currentVisible.classList.add(slideOut);
+        currentVisible.classList.remove('visible', 'flipped');
+
+        setTimeout(() => {
+          currentVisible.classList.remove(slideOut);
+          allCards.forEach(c => c.classList.remove('visible', 'flipped', 'slide-out-left', 'slide-out-right'));
+
+          if (typeCards[activeIndex]) {
+            typeCards[activeIndex].classList.add('visible');
+            typeCards[activeIndex].style.animation = 'none';
+            typeCards[activeIndex].offsetHeight; // trigger reflow
+            typeCards[activeIndex].style.animation = slideIn + ' 0.3s ease-out';
+
+            if (activeType === 'listening') {
+              const audioFile = typeCards[activeIndex].dataset.audioWord;
+              if (audioFile) {
+                setTimeout(() => playAudio(basePath + '/audio/' + audioFile + '.mp3'), 200);
+              }
+            }
+          }
+          counter.textContent = (activeIndex + 1) + ' / ' + typeCards.length;
+          animating = false;
+        }, 250);
+      } else {
+        allCards.forEach(c => c.classList.remove('visible', 'flipped', 'slide-out-left', 'slide-out-right'));
+        if (typeCards[activeIndex]) {
+          typeCards[activeIndex].classList.add('visible');
+          if (activeType === 'listening') {
+            const audioFile = typeCards[activeIndex].dataset.audioWord;
+            if (audioFile) {
+              setTimeout(() => playAudio(basePath + '/audio/' + audioFile + '.mp3'), 300);
+            }
           }
         }
+        counter.textContent = (activeIndex + 1) + ' / ' + typeCards.length;
       }
-      counter.textContent = (activeIndex + 1) + ' / ' + typeCards.length;
     }
 
     tabs.forEach(tab => {
@@ -544,22 +628,20 @@ const typeLabels: Record<string, { es: string; en: string; color: string }> = {
 
     allCards.forEach(card => {
       card.addEventListener('click', (e) => {
-        if (e.target.closest('.play-btn')) return;
+        if (e.target.closest('.play-btn') || animating) return;
         const wasFlipped = card.classList.contains('flipped');
         card.classList.toggle('flipped');
 
-        // Play word audio when flipping to back
         if (!wasFlipped) {
           const audioFile = card.dataset.audioWord;
           if (audioFile) {
             setTimeout(() => playAudio(basePath + '/audio/' + audioFile + '.mp3'), 300);
           }
-        }
-        // Play sentence audio on cloze back
-        if (!wasFlipped && card.dataset.cardType === 'cloze') {
-          const sentenceFile = card.dataset.audioSentence;
-          if (sentenceFile) {
-            setTimeout(() => playAudio(basePath + '/audio/' + sentenceFile + '.mp3'), 300);
+          if (card.dataset.cardType === 'cloze') {
+            const sentenceFile = card.dataset.audioSentence;
+            if (sentenceFile) {
+              setTimeout(() => playAudio(basePath + '/audio/' + sentenceFile + '.mp3'), 300);
+            }
           }
         }
       });
@@ -568,13 +650,13 @@ const typeLabels: Record<string, { es: string; en: string; color: string }> = {
     prevBtn.addEventListener('click', () => {
       const typeCards = getCardsForType(activeType);
       activeIndex = (activeIndex - 1 + typeCards.length) % typeCards.length;
-      showCard();
+      showCard('prev');
     });
 
     nextBtn.addEventListener('click', () => {
       const typeCards = getCardsForType(activeType);
       activeIndex = (activeIndex + 1) % typeCards.length;
-      showCard();
+      showCard('next');
     });
   });
 </script>
