@@ -1,0 +1,214 @@
+---
+interface VocabEntry {
+  hanzi: string;
+  pinyin: string;
+  spanish: string;
+  english: string;
+  category: string;
+}
+
+interface Props {
+  data: VocabEntry[];
+}
+
+const { data } = Astro.props;
+const categories = [...new Set(data.map(e => e.category))];
+---
+
+<div class="vocab-container">
+  <div class="vocab-controls">
+    <input
+      type="text"
+      id="vocab-search"
+      placeholder="Buscar / Search..."
+      class="vocab-search"
+    />
+    <div class="vocab-filters">
+      <button class="filter-btn active" data-filter="all">Todo / All</button>
+      {categories.map(cat => (
+        <button class="filter-btn" data-filter={cat}>{cat}</button>
+      ))}
+    </div>
+  </div>
+
+  <div class="vocab-table-wrapper">
+    <table class="vocab-table">
+      <thead>
+        <tr>
+          <th>汉字</th>
+          <th>Pinyin</th>
+          <th>Español</th>
+          <th>English</th>
+          <th>Categoría</th>
+        </tr>
+      </thead>
+      <tbody id="vocab-body">
+        {data.map(entry => (
+          <tr data-category={entry.category}>
+            <td class="hanzi-cell">{entry.hanzi}</td>
+            <td>{entry.pinyin}</td>
+            <td>{entry.spanish}</td>
+            <td>{entry.english}</td>
+            <td><span class="category-badge">{entry.category}</span></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <p class="vocab-count">
+    Mostrando <span id="visible-count">{data.length}</span> de {data.length} entradas
+  </p>
+</div>
+
+<style>
+  .vocab-container {
+    margin: 1.5rem 0;
+  }
+
+  .vocab-controls {
+    margin-bottom: 1rem;
+  }
+
+  .vocab-search {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 2px solid var(--sl-color-gray-4);
+    border-radius: 8px;
+    background: var(--sl-color-bg);
+    color: var(--sl-color-text);
+    margin-bottom: 0.75rem;
+  }
+
+  .vocab-search:focus {
+    outline: none;
+    border-color: var(--sl-color-accent);
+  }
+
+  .vocab-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .filter-btn {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--sl-color-gray-4);
+    border-radius: 20px;
+    background: var(--sl-color-bg);
+    color: var(--sl-color-text);
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+  }
+
+  .filter-btn:hover {
+    border-color: var(--sl-color-accent);
+  }
+
+  .filter-btn.active {
+    background: var(--sl-color-accent);
+    color: white;
+    border-color: var(--sl-color-accent);
+  }
+
+  .vocab-table-wrapper {
+    overflow-x: auto;
+    border-radius: 8px;
+    border: 1px solid var(--sl-color-gray-5);
+  }
+
+  .vocab-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+
+  .vocab-table th {
+    background: var(--sl-color-gray-6);
+    padding: 0.75rem;
+    text-align: left;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+  }
+
+  .vocab-table td {
+    padding: 0.6rem 0.75rem;
+    border-top: 1px solid var(--sl-color-gray-6);
+  }
+
+  .vocab-table tbody tr:hover {
+    background: var(--sl-color-gray-7);
+  }
+
+  .hanzi-cell {
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Noto Sans SC', sans-serif;
+  }
+
+  .category-badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    background: var(--sl-color-accent-low);
+    color: var(--sl-color-accent-high);
+  }
+
+  .vocab-count {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    color: var(--sl-color-gray-2);
+  }
+
+  @media (max-width: 640px) {
+    .vocab-table {
+      font-size: 0.85rem;
+    }
+    .hanzi-cell {
+      font-size: 1.2em;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const search = document.getElementById('vocab-search') as HTMLInputElement;
+    const tbody = document.getElementById('vocab-body')!;
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const countEl = document.getElementById('visible-count')!;
+    let activeFilter = 'all';
+
+    function filterRows() {
+      const query = search.value.toLowerCase();
+      let visible = 0;
+
+      rows.forEach(row => {
+        const category = row.getAttribute('data-category') || '';
+        const text = row.textContent?.toLowerCase() || '';
+        const matchesFilter = activeFilter === 'all' || category === activeFilter;
+        const matchesSearch = !query || text.includes(query);
+        const show = matchesFilter && matchesSearch;
+        (row as HTMLElement).style.display = show ? '' : 'none';
+        if (show) visible++;
+      });
+
+      countEl.textContent = String(visible);
+    }
+
+    search.addEventListener('input', filterRows);
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilter = (btn as HTMLElement).getAttribute('data-filter') || 'all';
+        filterRows();
+      });
+    });
+  });
+</script>

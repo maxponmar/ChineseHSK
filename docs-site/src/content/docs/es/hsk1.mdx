@@ -3,6 +3,9 @@ title: HSK 1
 description: Mazo Anki para el nivel HSK 1 de chino mandarín
 ---
 
+import VocabularyTable from '../../../components/VocabularyTable.astro';
+import vocabData from '../../../data/hsk1-vocab.json';
+
 ## HSK 1 — Nivel Básico
 
 El HSK 1 es el primer nivel del examen de competencia en chino mandarín. Cubre el vocabulario y las estructuras gramaticales más básicas para la comunicación diaria.
@@ -23,4 +26,4 @@ El HSK 1 es el primer nivel del examen de competencia en chino mandarín. Cubre 
 
 Usa la búsqueda para encontrar palabras por caracteres chinos, pinyin, español o inglés.
 
-{/* VocabularyTable component will be added here once created */}
+<VocabularyTable data={vocabData} />

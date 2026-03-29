@@ -1,0 +1,2368 @@
+[
+  {
+    "hanzi": "叫",
+    "pinyin": "jiào",
+    "spanish": "Llamarse",
+    "english": "To be called",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "什么",
+    "pinyin": "shénme",
+    "spanish": "Qué",
+    "english": "What",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "名字",
+    "pinyin": "míngzì",
+    "spanish": "Nombre",
+    "english": "Name",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "李月",
+    "pinyin": "lǐ yuè",
+    "spanish": "Li Yue (nombre propio)",
+    "english": "Li Yue (proper name)",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "老师",
+    "pinyin": "lǎoshī",
+    "spanish": "Maestro, Maestra",
+    "english": "Teacher",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "学生",
+    "pinyin": "xuéshēng",
+    "spanish": "Estudiante",
+    "english": "Student",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "人",
+    "pinyin": "rén",
+    "spanish": "Persona",
+    "english": "Person",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "中国",
+    "pinyin": "zhōngguó",
+    "spanish": "China",
+    "english": "China",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "美国",
+    "pinyin": "měiguó",
+    "spanish": "Estados Unidos",
+    "english": "United States",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "谁",
+    "pinyin": "shéi",
+    "spanish": "Quién",
+    "english": "Who",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "的",
+    "pinyin": "de",
+    "spanish": "Partícula posesiva",
+    "english": "Possessive particle",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "汉语",
+    "pinyin": "hànyǔ",
+    "spanish": "Idioma chino",
+    "english": "Chinese language",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "哪",
+    "pinyin": "nǎ",
+    "spanish": "Cuál",
+    "english": "Which",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "呢",
+    "pinyin": "ne",
+    "spanish": "Partícula devolver pregunta",
+    "english": "Question-returning particle",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "同学",
+    "pinyin": "tóngxué",
+    "spanish": "Compañero de clase",
+    "english": "Classmate",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "朋友",
+    "pinyin": "péngyǒu",
+    "spanish": "Amigo",
+    "english": "Friend",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "spanish": "Familia, Hogar",
+    "english": "Family, Home",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "spanish": "Tener, Haber",
+    "english": "To have",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "口",
+    "pinyin": "kǒu",
+    "spanish": "Clasificador miembros de familia",
+    "english": "Classifier for family members",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "女儿",
+    "pinyin": "nǚ'ér",
+    "spanish": "Hija",
+    "english": "Daughter",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "几",
+    "pinyin": "jǐ",
+    "spanish": "Cuántos",
+    "english": "How many",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "岁",
+    "pinyin": "suì",
+    "spanish": "Indica edad",
+    "english": "Age indicator",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "了",
+    "pinyin": "le",
+    "spanish": "Partícula de cambio y tiempo pasado",
+    "english": "Change/past particle",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "今年",
+    "pinyin": "jīnnián",
+    "spanish": "Este año",
+    "english": "This year",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "多大",
+    "pinyin": "duōdà",
+    "spanish": "Expresión para preguntar la edad",
+    "english": "How old",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "会",
+    "pinyin": "huì",
+    "spanish": "Poder (habilidad)",
+    "english": "Can (ability)",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "说",
+    "pinyin": "shuō",
+    "spanish": "Hablar, decir",
+    "english": "To speak, to say",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "妈妈",
+    "pinyin": "māma",
+    "spanish": "Mamá",
+    "english": "Mom",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "菜",
+    "pinyin": "cài",
+    "spanish": "Platillo",
+    "english": "Dish, food",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "好吃",
+    "pinyin": "hǎochī",
+    "spanish": "Delicioso (de comer)",
+    "english": "Delicious",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "做",
+    "pinyin": "zuò",
+    "spanish": "Hacer, cocinar",
+    "english": "To do, to cook",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "spanish": "Escribir",
+    "english": "To write",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "汉字",
+    "pinyin": "hànzì",
+    "spanish": "Símbolos chinos, caracteres",
+    "english": "Chinese characters",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "字",
+    "pinyin": "zì",
+    "spanish": "Palabra, carácter",
+    "english": "Character, word",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "怎么",
+    "pinyin": "zěnme",
+    "spanish": "Cómo",
+    "english": "How",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "读",
+    "pinyin": "dú",
+    "spanish": "Leer",
+    "english": "To read",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "请",
+    "pinyin": "qǐng",
+    "spanish": "Por favor",
+    "english": "Please",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "问",
+    "pinyin": "wèn",
+    "spanish": "Preguntar",
+    "english": "To ask",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "号",
+    "pinyin": "hào",
+    "spanish": "Número (de día del mes)",
+    "english": "Date number",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "spanish": "Mes",
+    "english": "Month",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "星期",
+    "pinyin": "xīngqī",
+    "spanish": "Semana",
+    "english": "Week",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "昨天",
+    "pinyin": "zuótiān",
+    "spanish": "Ayer",
+    "english": "Yesterday",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "spanish": "Mañana",
+    "english": "Tomorrow",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "去",
+    "pinyin": "qù",
+    "spanish": "Ir",
+    "english": "To go",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "学校",
+    "pinyin": "xuéxiào",
+    "spanish": "Escuela",
+    "english": "School",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "spanish": "Ver, leer",
+    "english": "To see, to read",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "书",
+    "pinyin": "shū",
+    "spanish": "Libro",
+    "english": "Book",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "spanish": "Querer, desear",
+    "english": "To want, to wish",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "spanish": "Beber",
+    "english": "To drink",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "spanish": "Té",
+    "english": "Tea",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "spanish": "Comer",
+    "english": "To eat",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "米饭",
+    "pinyin": "mǐfàn",
+    "spanish": "Arroz",
+    "english": "Rice",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "下午",
+    "pinyin": "xiàwǔ",
+    "spanish": "En la tarde",
+    "english": "Afternoon",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "spanish": "Tienda",
+    "english": "Shop, store",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "spanish": "Comprar",
+    "english": "To buy",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "个",
+    "pinyin": "gè",
+    "spanish": "Clasificador general",
+    "english": "General classifier",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "杯子",
+    "pinyin": "bēizi",
+    "spanish": "Vaso",
+    "english": "Cup, glass",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "这",
+    "pinyin": "zhè",
+    "spanish": "Este",
+    "english": "This",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "多少",
+    "pinyin": "duōshǎo",
+    "spanish": "Cuánto (cantidad mayor a 10)",
+    "english": "How much/many",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "钱",
+    "pinyin": "qián",
+    "spanish": "Dinero",
+    "english": "Money",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "多少钱",
+    "pinyin": "duōshǎo qián",
+    "spanish": "¿Cuánto cuesta?",
+    "english": "How much does it cost?",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "块",
+    "pinyin": "kuài",
+    "spanish": "Unidad (después de indicar precio)",
+    "english": "Unit of currency",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "那",
+    "pinyin": "nà",
+    "spanish": "Aquel, ése",
+    "english": "That",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "spanish": "Pequeño, chico",
+    "english": "Small",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "spanish": "Perro",
+    "english": "Dog",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "在",
+    "pinyin": "zài",
+    "spanish": "En",
+    "english": "At, in",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "那儿",
+    "pinyin": "nà'er",
+    "spanish": "Allá",
+    "english": "There",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "椅子",
+    "pinyin": "yǐzi",
+    "spanish": "Silla",
+    "english": "Chair",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "下面",
+    "pinyin": "xiàmiàn",
+    "spanish": "Debajo",
+    "english": "Below, under",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "哪儿",
+    "pinyin": "nǎ'er",
+    "spanish": "¿Dónde?",
+    "english": "Where?",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "工作",
+    "pinyin": "gōngzuò",
+    "spanish": "Trabajar, Trabajo",
+    "english": "To work, Work",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "儿子",
+    "pinyin": "érzi",
+    "spanish": "Hijo",
+    "english": "Son",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "医院",
+    "pinyin": "yīyuàn",
+    "spanish": "Hospital",
+    "english": "Hospital",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "医生",
+    "pinyin": "yīshēng",
+    "spanish": "Doctor, Doctora",
+    "english": "Doctor",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "spanish": "Papá",
+    "english": "Dad",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "桌子",
+    "pinyin": "zhuōzi",
+    "spanish": "Mesa",
+    "english": "Table",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "上",
+    "pinyin": "shàng",
+    "spanish": "Arriba, sobre",
+    "english": "Up, on",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "电脑",
+    "pinyin": "diànnǎo",
+    "spanish": "Computadora",
+    "english": "Computer",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "和",
+    "pinyin": "hé",
+    "spanish": "Y",
+    "english": "And",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "本",
+    "pinyin": "běn",
+    "spanish": "Clasificador libros, revistas",
+    "english": "Classifier for books",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "里",
+    "pinyin": "lǐ",
+    "spanish": "Dentro de",
+    "english": "Inside",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "前面",
+    "pinyin": "qiánmiàn",
+    "spanish": "Enfrente",
+    "english": "In front",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "后面",
+    "pinyin": "hòumiàn",
+    "spanish": "Detrás",
+    "english": "Behind",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "这儿",
+    "pinyin": "zhè'er",
+    "spanish": "Aquí",
+    "english": "Here",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "没有",
+    "pinyin": "méiyǒu",
+    "spanish": "No hay, No tener",
+    "english": "Don't have, there isn't",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "能",
+    "pinyin": "néng",
+    "spanish": "Poder (posibilidad)",
+    "english": "Can (possibility)",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "坐",
+    "pinyin": "zuò",
+    "spanish": "Sentar",
+    "english": "To sit",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "现在",
+    "pinyin": "xiànzài",
+    "spanish": "Ahora",
+    "english": "Now",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "spanish": "Punto (indica la hora)",
+    "english": "O'clock",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "分",
+    "pinyin": "fēn",
+    "spanish": "Minuto",
+    "english": "Minute",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "中午",
+    "pinyin": "zhōngwǔ",
+    "spanish": "Mediodía",
+    "english": "Noon",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "吃饭",
+    "pinyin": "chīfàn",
+    "spanish": "Comer comida",
+    "english": "To eat a meal",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "什么时候",
+    "pinyin": "shénme shíhòu",
+    "spanish": "¿Cuándo?",
+    "english": "When?",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "回",
+    "pinyin": "huí",
+    "spanish": "Volver",
+    "english": "To return",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "电影",
+    "pinyin": "diànyǐng",
+    "spanish": "Película",
+    "english": "Movie",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "住",
+    "pinyin": "zhù",
+    "spanish": "Vivir (lugar)",
+    "english": "To live",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "前",
+    "pinyin": "qián",
+    "spanish": "Antes",
+    "english": "Before",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "北京",
+    "pinyin": "běijīng",
+    "spanish": "Beijing",
+    "english": "Beijing",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "下雨",
+    "pinyin": "xià yǔ",
+    "spanish": "Llover",
+    "english": "To rain",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "小姐",
+    "pinyin": "xiǎojiě",
+    "spanish": "Señorita",
+    "english": "Miss",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "来",
+    "pinyin": "lái",
+    "spanish": "Venir",
+    "english": "To come",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "怎么样",
+    "pinyin": "zěnme yàng",
+    "spanish": "¿Qué tal? (pregunta estado)",
+    "english": "How is it?",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "身体",
+    "pinyin": "shēntǐ",
+    "spanish": "Cuerpo, salud",
+    "english": "Body, health",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "些",
+    "pinyin": "xiē",
+    "spanish": "Algunos",
+    "english": "Some",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "水果",
+    "pinyin": "shuǐguǒ",
+    "spanish": "Fruta",
+    "english": "Fruit",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "spanish": "Agua",
+    "english": "Water",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "多",
+    "pinyin": "duō",
+    "spanish": "Mucho",
+    "english": "Many, much",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "喂",
+    "pinyin": "wèi",
+    "spanish": "Saludo para contestar llamada",
+    "english": "Hello (phone)",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "也",
+    "pinyin": "yě",
+    "spanish": "También",
+    "english": "Also",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "上午",
+    "pinyin": "shàngwǔ",
+    "spanish": "En la mañana",
+    "english": "Morning",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "睡觉",
+    "pinyin": "shuìjiào",
+    "spanish": "Dormir",
+    "english": "To sleep",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "电视",
+    "pinyin": "diànshì",
+    "spanish": "Televisión",
+    "english": "Television",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "喜欢",
+    "pinyin": "xǐhuān",
+    "spanish": "Gustar",
+    "english": "To like",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "给",
+    "pinyin": "gěi",
+    "spanish": "Dar",
+    "english": "To give",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "打电话",
+    "pinyin": "dǎ diànhuà",
+    "spanish": "Hacer llamada",
+    "english": "To make a phone call",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "吧",
+    "pinyin": "ba",
+    "spanish": "Partícula modal",
+    "english": "Modal particle",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "东西",
+    "pinyin": "dōngxī",
+    "spanish": "Cosas",
+    "english": "Things",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "一点儿",
+    "pinyin": "yīdiǎnr",
+    "spanish": "Un poco",
+    "english": "A little",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "苹果",
+    "pinyin": "píngguǒ",
+    "spanish": "Manzana",
+    "english": "Apple",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "看见",
+    "pinyin": "kànjiàn",
+    "spanish": "Mirar, ver",
+    "english": "To see",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "先生",
+    "pinyin": "xiānshēng",
+    "spanish": "Señor",
+    "english": "Mr., Sir",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "spanish": "Manejar, abrir",
+    "english": "To drive, to open",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "车",
+    "pinyin": "chē",
+    "spanish": "Carro, Vehículo",
+    "english": "Car, vehicle",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "后",
+    "pinyin": "hòu",
+    "spanish": "Después",
+    "english": "After",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "回来",
+    "pinyin": "huílái",
+    "spanish": "Regresar",
+    "english": "To come back",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "衣服",
+    "pinyin": "yīfu",
+    "spanish": "Ropa",
+    "english": "Clothes",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "啊",
+    "pinyin": "a",
+    "spanish": "Partícula modal",
+    "english": "Modal particle",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "少",
+    "pinyin": "shǎo",
+    "spanish": "Poco",
+    "english": "Few, little",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "不少",
+    "pinyin": "bù shǎo",
+    "spanish": "Mucho",
+    "english": "Many, quite a lot",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "认识",
+    "pinyin": "rènshì",
+    "spanish": "Conocer",
+    "english": "To know (a person)",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "年",
+    "pinyin": "nián",
+    "spanish": "Año",
+    "english": "Year",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "大学",
+    "pinyin": "dàxué",
+    "spanish": "Universidad",
+    "english": "University",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "饭店",
+    "pinyin": "fàndiàn",
+    "spanish": "Restaurante",
+    "english": "Restaurant",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "出租车",
+    "pinyin": "chūzūchē",
+    "spanish": "Taxi",
+    "english": "Taxi",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "一起",
+    "pinyin": "yīqǐ",
+    "spanish": "Juntos",
+    "english": "Together",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "高兴",
+    "pinyin": "gāoxìng",
+    "spanish": "Feliz",
+    "english": "Happy",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "听",
+    "pinyin": "tīng",
+    "spanish": "Escuchar",
+    "english": "To listen",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "飞机",
+    "pinyin": "fēijī",
+    "spanish": "Avión",
+    "english": "Airplane",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "是",
+    "pinyin": "shì",
+    "spanish": "Ser, Estar",
+    "english": "To be",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "spanish": "Hoy",
+    "english": "Today",
+    "category": "Vocabulario"
+  },
+  {
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "spanish": "Hola",
+    "english": "Hello",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "早上好",
+    "pinyin": "zǎoshang hǎo",
+    "spanish": "Buenos días",
+    "english": "Good morning",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "下午好",
+    "pinyin": "xiàwǔ hǎo",
+    "spanish": "Buenas tardes",
+    "english": "Good afternoon",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "晚上好",
+    "pinyin": "wǎnshang hǎo",
+    "spanish": "Buenas noches",
+    "english": "Good evening",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "再见",
+    "pinyin": "zàijiàn",
+    "spanish": "Adiós",
+    "english": "Goodbye",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "明天见",
+    "pinyin": "míngtiān jiàn",
+    "spanish": "Hasta mañana",
+    "english": "See you tomorrow",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "晚安",
+    "pinyin": "wǎn'ān",
+    "spanish": "Buenas noches / Que descanses",
+    "english": "Good night",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "谢谢",
+    "pinyin": "xièxiè",
+    "spanish": "Gracias",
+    "english": "Thank you",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "非常感谢",
+    "pinyin": "fēicháng gǎnxiè",
+    "spanish": "Muchas gracias",
+    "english": "Thank you very much",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "不客气",
+    "pinyin": "bù kèqì",
+    "spanish": "De nada",
+    "english": "You're welcome",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "对不起",
+    "pinyin": "duìbuqǐ",
+    "spanish": "Lo siento / Perdón",
+    "english": "Sorry / I'm sorry",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "没关系",
+    "pinyin": "méi guānxi",
+    "spanish": "No importa / No pasa nada",
+    "english": "It's okay / No problem",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "请问",
+    "pinyin": "qǐngwèn",
+    "spanish": "Disculpe / ¿Puedo preguntar?",
+    "english": "Excuse me / May I ask",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "好久不见",
+    "pinyin": "hǎo jiǔ bú jiàn",
+    "spanish": "Cuánto tiempo sin verte",
+    "english": "Long time no see",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "你吃了吗？",
+    "pinyin": "nǐ chī le ma?",
+    "spanish": "¿Ya comiste?",
+    "english": "Have you eaten?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "很高兴认识你",
+    "pinyin": "hěn gāoxìng rènshi nǐ",
+    "spanish": "Mucho gusto en conocerte",
+    "english": "Nice to meet you",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "你最近怎么样？",
+    "pinyin": "nǐ zuìjìn zěnme yàng?",
+    "spanish": "¿Cómo has estado últimamente?",
+    "english": "How have you been recently?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "周末你做什么了？",
+    "pinyin": "zhōumò nǐ zuò shénme le?",
+    "spanish": "¿Qué hiciste el fin de semana?",
+    "english": "What did you do this weekend?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "你好吗？",
+    "pinyin": "nǐ hǎo ma?",
+    "spanish": "¿Cómo estás?",
+    "english": "How are you?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我也是",
+    "pinyin": "wǒ yě shì",
+    "spanish": "Yo también",
+    "english": "Me too",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "菜单",
+    "pinyin": "càidān",
+    "spanish": "Menú / Carta",
+    "english": "Menu",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我要这个",
+    "pinyin": "wǒ yào zhège",
+    "spanish": "Quiero este / Quiero esto",
+    "english": "I want this one",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "买单",
+    "pinyin": "mǎidān",
+    "spanish": "La cuenta, por favor",
+    "english": "Check please / Bill please",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "服务员",
+    "pinyin": "fúwùyuán",
+    "spanish": "Mesero / Camarero",
+    "english": "Waiter / Waitress",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "你推荐什么？",
+    "pinyin": "nǐ tuījiàn shénme?",
+    "spanish": "¿Qué recomiendas?",
+    "english": "What do you recommend?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "太辣了",
+    "pinyin": "tài là le",
+    "spanish": "Está demasiado picante",
+    "english": "Too spicy",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "不辣",
+    "pinyin": "bù là",
+    "spanish": "Sin picante / No picante",
+    "english": "Not spicy",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "好吃吗？",
+    "pinyin": "hǎochī ma?",
+    "spanish": "¿Está rico? / ¿Está bueno?",
+    "english": "Is it delicious?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我吃饱了",
+    "pinyin": "wǒ chī bǎo le",
+    "spanish": "Estoy lleno / Ya comí suficiente",
+    "english": "I'm full",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "打包",
+    "pinyin": "dǎbāo",
+    "spanish": "Para llevar / Empacar",
+    "english": "To go / Takeaway",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我不吃肉",
+    "pinyin": "wǒ bù chī ròu",
+    "spanish": "No como carne",
+    "english": "I don't eat meat",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "可以再来一个吗？",
+    "pinyin": "kěyǐ zài lái yī gè ma?",
+    "spanish": "¿Me puede traer otro/a?",
+    "english": "Can I have another one?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "请来一杯水",
+    "pinyin": "qǐng lái yī bēi shuǐ",
+    "spanish": "Por favor tráigame un vaso de agua",
+    "english": "Please bring me a glass of water",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "好吃！",
+    "pinyin": "hǎochī!",
+    "spanish": "¡Está rico! / ¡Está delicioso!",
+    "english": "Delicious! / It's good!",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我要点菜",
+    "pinyin": "wǒ yào diǎncài",
+    "spanish": "Quiero ordenar / Quiero pedir",
+    "english": "I want to order",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "地铁站在哪儿？",
+    "pinyin": "dìtiě zhàn zài nǎr?",
+    "spanish": "¿Dónde está la estación de metro?",
+    "english": "Where is the subway station?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "左边",
+    "pinyin": "zuǒbiān",
+    "spanish": "A la izquierda",
+    "english": "Left side / To the left",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "右边",
+    "pinyin": "yòubiān",
+    "spanish": "A la derecha",
+    "english": "Right side / To the right",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "一直走",
+    "pinyin": "yīzhí zǒu",
+    "spanish": "Siga derecho / Vaya recto",
+    "english": "Go straight",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "太贵了",
+    "pinyin": "tài guì le",
+    "spanish": "Está demasiado caro",
+    "english": "Too expensive",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "可以便宜一点吗？",
+    "pinyin": "kěyǐ piányí yīdiǎn ma?",
+    "spanish": "¿Puede ser un poco más barato?",
+    "english": "Can you make it cheaper?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我要买…",
+    "pinyin": "wǒ yào mǎi…",
+    "spanish": "Quiero comprar…",
+    "english": "I want to buy…",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "可以试试吗？",
+    "pinyin": "kěyǐ shìshi ma?",
+    "spanish": "¿Puedo probarlo?",
+    "english": "Can I try it?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "多少钱？",
+    "pinyin": "duōshǎo qián?",
+    "spanish": "¿Cuánto cuesta?",
+    "english": "How much does it cost?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我要去…",
+    "pinyin": "wǒ yào qù…",
+    "spanish": "Quiero ir a…",
+    "english": "I want to go to…",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "到了吗？",
+    "pinyin": "dào le ma?",
+    "spanish": "¿Ya llegamos?",
+    "english": "Have we arrived?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "请停这里",
+    "pinyin": "qǐng tíng zhèlǐ",
+    "spanish": "Por favor pare aquí",
+    "english": "Please stop here",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "在哪儿？",
+    "pinyin": "zài nǎr?",
+    "spanish": "¿Dónde está?",
+    "english": "Where is it?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我在找…",
+    "pinyin": "wǒ zài zhǎo…",
+    "spanish": "Estoy buscando…",
+    "english": "I'm looking for…",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "有没有…？",
+    "pinyin": "yǒu méiyǒu…?",
+    "spanish": "¿Tienen…? / ¿Hay…?",
+    "english": "Do you have…? / Is there…?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "今天天气很好",
+    "pinyin": "jīntiān tiānqì hěn hǎo",
+    "spanish": "Hoy hace muy buen tiempo",
+    "english": "The weather is nice today",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "好冷啊",
+    "pinyin": "hǎo lěng a",
+    "spanish": "¡Qué frío!",
+    "english": "So cold!",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "好热啊",
+    "pinyin": "hǎo rè a",
+    "spanish": "¡Qué calor!",
+    "english": "So hot!",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我们一起吃饭吧",
+    "pinyin": "wǒmen yīqǐ chīfàn ba",
+    "spanish": "Comamos juntos",
+    "english": "Let's eat together",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "你有空吗？",
+    "pinyin": "nǐ yǒu kòng ma?",
+    "spanish": "¿Tienes tiempo libre? / ¿Estás disponible?",
+    "english": "Are you free?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "什么时候方便？",
+    "pinyin": "shénme shíhòu fāngbiàn?",
+    "spanish": "¿Cuándo te viene bien?",
+    "english": "When is convenient for you?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我很开心",
+    "pinyin": "wǒ hěn kāixīn",
+    "spanish": "Estoy muy contento/a",
+    "english": "I'm very happy",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我有点儿累",
+    "pinyin": "wǒ yǒu diǎnr lèi",
+    "spanish": "Estoy un poco cansado/a",
+    "english": "I'm a bit tired",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "没问题",
+    "pinyin": "méi wèntí",
+    "spanish": "Sin problema / No hay problema",
+    "english": "No problem",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "当然可以",
+    "pinyin": "dāngrán kěyǐ",
+    "spanish": "Por supuesto / Claro que sí",
+    "english": "Of course",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "慢慢来",
+    "pinyin": "màn man lái",
+    "spanish": "Tómate tu tiempo / Sin prisa",
+    "english": "Take your time / No rush",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "太好了！",
+    "pinyin": "tài hǎo le!",
+    "spanish": "¡Qué bien! / ¡Genial!",
+    "english": "Great! / Wonderful!",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "真的吗？",
+    "pinyin": "zhēn de ma?",
+    "spanish": "¿De verdad? / ¿En serio?",
+    "english": "Really?",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我不知道",
+    "pinyin": "wǒ bù zhīdào",
+    "spanish": "No sé / No lo sé",
+    "english": "I don't know",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我明白了",
+    "pinyin": "wǒ míngbái le",
+    "spanish": "Ya entendí / Comprendí",
+    "english": "I understand / I got it",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "下雨了",
+    "pinyin": "xià yǔ le",
+    "spanish": "Está lloviendo",
+    "english": "It's raining",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "等一下",
+    "pinyin": "děng yīxià",
+    "spanish": "Espera un momento",
+    "english": "Wait a moment",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我来了",
+    "pinyin": "wǒ lái le",
+    "spanish": "Ya llegué / Aquí estoy",
+    "english": "I'm here / I've arrived",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "我想…",
+    "pinyin": "wǒ xiǎng…",
+    "spanish": "Quiero… / Me gustaría…",
+    "english": "I want to… / I'd like to…",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "一起去吧",
+    "pinyin": "yīqǐ qù ba",
+    "spanish": "Vamos juntos",
+    "english": "Let's go together",
+    "category": "Frases Diarias"
+  },
+  {
+    "hanzi": "开会",
+    "pinyin": "kāi huì",
+    "spanish": "Tener una reunión",
+    "english": "To have a meeting",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "会议",
+    "pinyin": "huì yì",
+    "spanish": "Reunión",
+    "english": "Meeting",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "我们开始吧",
+    "pinyin": "wǒmen kāishǐ ba",
+    "spanish": "Empecemos",
+    "english": "Let's begin",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "你同意吗？",
+    "pinyin": "nǐ tóngyì ma?",
+    "spanish": "¿Estás de acuerdo?",
+    "english": "Do you agree?",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "会议几点开始？",
+    "pinyin": "huì yì jǐ diǎn kāishǐ?",
+    "spanish": "¿A qué hora empieza la reunión?",
+    "english": "What time does the meeting start?",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "下一个话题",
+    "pinyin": "xià yī gè huàtí",
+    "spanish": "El siguiente tema",
+    "english": "Next topic",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "我有一个问题",
+    "pinyin": "wǒ yǒu yī gè wèntí",
+    "spanish": "Tengo una pregunta",
+    "english": "I have a question",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "好的，没问题",
+    "pinyin": "hǎo de, méi wèntí",
+    "spanish": "Bien, no hay problema",
+    "english": "OK, no problem",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "今天的会议结束了",
+    "pinyin": "jīntiān de huì yì jiéshù le",
+    "spanish": "La reunión de hoy ha terminado",
+    "english": "Today's meeting is over",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "请大家看一下",
+    "pinyin": "qǐng dàjiā kàn yīxià",
+    "spanish": "Por favor todos echen un vistazo",
+    "english": "Everyone please take a look",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "你觉得怎么样？",
+    "pinyin": "nǐ juéde zěnme yàng?",
+    "spanish": "¿Qué te parece?",
+    "english": "What do you think?",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "我们下周再讨论",
+    "pinyin": "wǒmen xià zhōu zài tǎolùn",
+    "spanish": "Lo discutimos la próxima semana",
+    "english": "Let's discuss it next week",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "有什么问题吗？",
+    "pinyin": "yǒu shénme wèntí ma?",
+    "spanish": "¿Hay alguna pregunta?",
+    "english": "Any questions?",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "需要帮忙吗？",
+    "pinyin": "xūyào bāngmáng ma?",
+    "spanish": "¿Necesitas ayuda?",
+    "english": "Do you need help?",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "这个很重要",
+    "pinyin": "zhège hěn zhòngyào",
+    "spanish": "Esto es muy importante",
+    "english": "This is very important",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "我赞成",
+    "pinyin": "wǒ zànchéng",
+    "spanish": "Estoy a favor / Estoy de acuerdo",
+    "english": "I agree / I am in favor",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "议程",
+    "pinyin": "yìchéng",
+    "spanish": "Agenda / Orden del día",
+    "english": "Agenda",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "请发言",
+    "pinyin": "qǐng fāyán",
+    "spanish": "Por favor habla / Tienes la palabra",
+    "english": "Please speak / You have the floor",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "总结一下",
+    "pinyin": "zǒngjié yīxià",
+    "spanish": "Resumamos",
+    "english": "Let's summarize",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "下次会议",
+    "pinyin": "xià cì huì yì",
+    "spanish": "La próxima reunión",
+    "english": "The next meeting",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "代码",
+    "pinyin": "dàimǎ",
+    "spanish": "Código",
+    "english": "Code",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "测试",
+    "pinyin": "cèshì",
+    "spanish": "Prueba / Test",
+    "english": "Test",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "部署",
+    "pinyin": "bùshǔ",
+    "spanish": "Desplegar / Deploy",
+    "english": "Deploy",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "发布",
+    "pinyin": "fābù",
+    "spanish": "Publicar / Lanzar",
+    "english": "Release / Publish",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "上线",
+    "pinyin": "shàng xiàn",
+    "spanish": "Poner en producción / Ir en vivo",
+    "english": "Go live / Launch",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "这个有bug",
+    "pinyin": "zhège yǒu bug",
+    "spanish": "Esto tiene un error / bug",
+    "english": "This has a bug",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "代码审查",
+    "pinyin": "dàimǎ shěnchá",
+    "spanish": "Revisión de código / Code review",
+    "english": "Code review",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "你能看一下吗？",
+    "pinyin": "nǐ néng kàn yīxià ma?",
+    "spanish": "¿Puedes echarle un vistazo?",
+    "english": "Can you take a look?",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "已经修好了",
+    "pinyin": "yǐjīng xiū hǎo le",
+    "spanish": "Ya está arreglado",
+    "english": "Already fixed",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "数据库",
+    "pinyin": "shùjùkù",
+    "spanish": "Base de datos",
+    "english": "Database",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "服务器",
+    "pinyin": "fúwùqì",
+    "spanish": "Servidor",
+    "english": "Server",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "功能",
+    "pinyin": "gōngnéng",
+    "spanish": "Función / Característica",
+    "english": "Feature / Function",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "需求",
+    "pinyin": "xūqiú",
+    "spanish": "Requisito / Requerimiento",
+    "english": "Requirement",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "进度",
+    "pinyin": "jìndù",
+    "spanish": "Progreso / Avance",
+    "english": "Progress",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "完成了",
+    "pinyin": "wánchéng le",
+    "spanish": "Terminado / Completado",
+    "english": "Done / Completed",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "还没有做完",
+    "pinyin": "hái méiyǒu zuò wán",
+    "spanish": "Todavía no he terminado",
+    "english": "Not finished yet",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "我在做",
+    "pinyin": "wǒ zài zuò",
+    "spanish": "Estoy trabajando en ello",
+    "english": "I'm working on it",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "版本",
+    "pinyin": "bǎnběn",
+    "spanish": "Versión",
+    "english": "Version",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "更新",
+    "pinyin": "gēngxīn",
+    "spanish": "Actualizar / Actualización",
+    "english": "Update",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "项目",
+    "pinyin": "xiàngmù",
+    "spanish": "Proyecto",
+    "english": "Project",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "你好！",
+    "pinyin": "nǐ hǎo!",
+    "spanish": "¡Hola! (saludo de email)",
+    "english": "Hello! (email greeting)",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "谢谢你的邮件",
+    "pinyin": "xièxiè nǐ de yóujiàn",
+    "spanish": "Gracias por tu correo",
+    "english": "Thanks for your email",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "请确认",
+    "pinyin": "qǐng quèrèn",
+    "spanish": "Por favor confirma",
+    "english": "Please confirm",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "附件",
+    "pinyin": "fùjiàn",
+    "spanish": "Archivo adjunto",
+    "english": "Attachment",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "收到",
+    "pinyin": "shōu dào",
+    "spanish": "Recibido / Entendido",
+    "english": "Received / Got it",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "请查看",
+    "pinyin": "qǐng chákàn",
+    "spanish": "Por favor revisa",
+    "english": "Please check / Please review",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "尽快回复",
+    "pinyin": "jǐnkuài huífù",
+    "spanish": "Responde lo antes posible",
+    "english": "Reply as soon as possible / Reply ASAP",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "抄送",
+    "pinyin": "chāosòng",
+    "spanish": "Con copia / CC",
+    "english": "CC (carbon copy)",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "转发",
+    "pinyin": "zhuǎnfā",
+    "spanish": "Reenviar",
+    "english": "Forward",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "回复",
+    "pinyin": "huífù",
+    "spanish": "Responder / Respuesta",
+    "english": "Reply / Response",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "好的，收到",
+    "pinyin": "hǎo de, shōu dào",
+    "spanish": "Bien, recibido",
+    "english": "OK, received",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "请注意",
+    "pinyin": "qǐng zhùyì",
+    "spanish": "Por favor presta atención / Aviso",
+    "english": "Please note / Please pay attention",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "方便的时候回复",
+    "pinyin": "fāngbiàn de shíhòu huífù",
+    "spanish": "Responde cuando puedas",
+    "english": "Reply when convenient",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "邮件",
+    "pinyin": "yóujiàn",
+    "spanish": "Correo electrónico",
+    "english": "Email",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "一起去吃午饭吧",
+    "pinyin": "yīqǐ qù chī wǔfàn ba",
+    "spanish": "Vamos a almorzar juntos",
+    "english": "Let's go have lunch together",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "做得好！",
+    "pinyin": "zuò de hǎo!",
+    "spanish": "¡Bien hecho! / ¡Buen trabajo!",
+    "english": "Good job! / Well done!",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "辛苦了",
+    "pinyin": "xīnkǔ le",
+    "spanish": "Gracias por tu esfuerzo / Has trabajado duro",
+    "english": "Thanks for your hard work",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "你能帮我吗？",
+    "pinyin": "nǐ néng bāng wǒ ma?",
+    "spanish": "¿Me puedes ayudar?",
+    "english": "Can you help me?",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "恭喜",
+    "pinyin": "gōngxǐ",
+    "spanish": "Felicidades",
+    "english": "Congratulations",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "加油",
+    "pinyin": "jiā yóu",
+    "spanish": "¡Ánimo! / ¡Tú puedes!",
+    "english": "Keep it up! / You can do it!",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "下班了",
+    "pinyin": "xià bān le",
+    "spanish": "La jornada ha terminado / Me voy del trabajo",
+    "english": "Time to leave work / Off work",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "周末愉快",
+    "pinyin": "zhōumò yúkuài",
+    "spanish": "Que tengas un buen fin de semana",
+    "english": "Have a nice weekend",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "早上好",
+    "pinyin": "zǎoshang hǎo",
+    "spanish": "Buenos días",
+    "english": "Good morning",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "欢迎",
+    "pinyin": "huānyíng",
+    "spanish": "Bienvenido",
+    "english": "Welcome",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "生日快乐",
+    "pinyin": "shēngrì kuàilè",
+    "spanish": "Feliz cumpleaños",
+    "english": "Happy birthday",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "新年快乐",
+    "pinyin": "xīnnián kuàilè",
+    "spanish": "Feliz Año Nuevo",
+    "english": "Happy New Year",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "请喝茶",
+    "pinyin": "qǐng hē chá",
+    "spanish": "Por favor toma un poco de té",
+    "english": "Please have some tea",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "你好吗？",
+    "pinyin": "nǐ hǎo ma?",
+    "spanish": "¿Cómo estás?",
+    "english": "How are you?",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "你能听到吗？",
+    "pinyin": "nǐ néng tīng dào ma?",
+    "spanish": "¿Me puedes escuchar?",
+    "english": "Can you hear me?",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "我分享屏幕",
+    "pinyin": "wǒ fēnxiǎng píngmù",
+    "spanish": "Comparto mi pantalla",
+    "english": "I'll share my screen",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "你静音了",
+    "pinyin": "nǐ jìngyīn le",
+    "spanish": "Estás en silencio / Tienes el micrófono apagado",
+    "english": "You're on mute",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "网络不好",
+    "pinyin": "wǎngluò bù hǎo",
+    "spanish": "La conexión es mala",
+    "english": "Bad connection / The internet is poor",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "我们用视频吧",
+    "pinyin": "wǒmen yòng shìpín ba",
+    "spanish": "Usemos video",
+    "english": "Let's use video",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "请再说一次",
+    "pinyin": "qǐng zài shuō yī cì",
+    "spanish": "Por favor repítelo",
+    "english": "Please say it again",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "声音太小了",
+    "pinyin": "shēngyīn tài xiǎo le",
+    "spanish": "El sonido es muy bajo",
+    "english": "The sound is too low",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "可以看到吗？",
+    "pinyin": "kěyǐ kàn dào ma?",
+    "spanish": "¿Puedes verlo?",
+    "english": "Can you see it?",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "等一下",
+    "pinyin": "děng yīxià",
+    "spanish": "Espera un momento",
+    "english": "Wait a moment",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "我先挂了",
+    "pinyin": "wǒ xiān guà le",
+    "spanish": "Me desconecto primero / Cuelgo primero",
+    "english": "I'll hang up first",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "视频会议",
+    "pinyin": "shìpín huì yì",
+    "spanish": "Videoconferencia",
+    "english": "Video conference",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "请打开摄像头",
+    "pinyin": "qǐng dǎkāi shèxiàngtóu",
+    "spanish": "Por favor enciende la cámara",
+    "english": "Please turn on your camera",
+    "category": "Frases de Trabajo"
+  },
+  {
+    "hanzi": "疑问代词「什么」",
+    "pinyin": "yíwèn dàicí 'shénme'",
+    "spanish": "Pronombre interrogativo '什么' (qué/cuál). Se usa en preguntas como objeto o modificando un sustantivo.",
+    "english": "Interrogative pronoun '什么' (what). Used in questions as object or to modify a noun.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "「是」字句",
+    "pinyin": "'shì' zì jù",
+    "spanish": "Oración con '是': se usa para indicar identidad o categoría. Negación: 不是. Estructura: Sujeto + 是 + Predicado.",
+    "english": "The '是' sentence: a determinative sentence using 是 to indicate identity. Negative: 不是. Structure: Subject + 是 + Predicate.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "用「吗」的疑问句",
+    "pinyin": "yòng 'ma' de yíwènjù",
+    "spanish": "Oración interrogativa con '吗': se añade 吗 al final de una afirmación para convertirla en pregunta de sí/no.",
+    "english": "Interrogative sentence with '吗': adding 吗 at the end of a statement turns it into a yes/no question.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "疑问代词「谁」和「哪」",
+    "pinyin": "yíwèn dàicí 'shéi' hé 'nǎ'",
+    "spanish": "Pronombres interrogativos '谁' (quién) y '哪' (cuál/de dónde). Se usan para preguntar por personas o procedencia.",
+    "english": "Interrogative pronouns '谁' (who) and '哪' (which/where from). Used to ask about people or origin.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "结构助词「的」",
+    "pinyin": "jiégòu zhùcí 'de'",
+    "spanish": "Partícula estructural '的': indica posesión o atribución. Se coloca entre el poseedor y la cosa poseída.",
+    "english": "Structural particle '的': shows possession or attribution. Placed between possessor and the thing possessed.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "疑问助词「呢」(1) — 反问",
+    "pinyin": "yíwèn zhùcí 'ne' (1) — fǎnwèn",
+    "spanish": "Partícula interrogativa '呢' (1): se usa para devolver una pregunta al interlocutor. Estructura: declaración + 你呢？",
+    "english": "Interrogative particle '呢' (1): used to return a question. Structure: statement + 你呢？(And you?)",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "疑问代词「几」",
+    "pinyin": "yíwèn dàicí 'jǐ'",
+    "spanish": "Pronombre interrogativo '几': pregunta '¿cuántos?' y se usa cuando la respuesta esperada es menor de 10.",
+    "english": "Interrogative pronoun '几': asks 'how many?' and is used when the expected answer is less than 10.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "100以内的数字",
+    "pinyin": "yībǎi yǐnèi de shùzì",
+    "spanish": "Números del 1 al 99: del 1 al 10 (一到十), luego decenas + unidades. Ej: 二十一 (21), 三十五 (35).",
+    "english": "Numbers below 100: 1-10 (一到十), then tens + units. E.g., 二十一 (21), 三十五 (35).",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "「了」表变化",
+    "pinyin": "'le' biǎo biànhuà",
+    "spanish": "'了' indicando cambio de estado: se añade al final de la oración para indicar una situación nueva o un cambio.",
+    "english": "'了' indicating a change of state: added at the end of a sentence to show a new situation or change.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "「多大」表疑问",
+    "pinyin": "'duō dà' biǎo yíwèn",
+    "spanish": "La frase interrogativa '多大': se usa para preguntar la edad de alguien. Equivale a '¿cuántos años tienes?'",
+    "english": "The interrogative phrase '多大': used to ask someone's age. Equivalent to 'How old are you?'",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "能愿动词「会」(1) — 技能",
+    "pinyin": "néngyuàn dòngcí 'huì' (1) — jìnéng",
+    "spanish": "Verbo modal '会' (1): indica habilidad adquirida mediante aprendizaje. Estructura: Sujeto + 会 + Verbo.",
+    "english": "Modal verb '会' (1): indicates a learned ability or skill. Structure: Subject + 会 + Verb.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "形容词谓语句",
+    "pinyin": "xíngróngcí wèiyǔ jù",
+    "spanish": "Oración con predicado adjetival: el adjetivo funciona directamente como predicado, generalmente acompañado de 很.",
+    "english": "Sentence with an adjectival predicate: the adjective serves directly as the predicate, often accompanied by 很.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "疑问代词「怎么」(1)",
+    "pinyin": "yíwèn dàicí 'zěnme' (1)",
+    "spanish": "Pronombre interrogativo '怎么' (1): pregunta '¿cómo?' sobre la manera de hacer algo.",
+    "english": "Interrogative pronoun '怎么' (1): asks 'how?' about the way of doing something.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "日期的表达(1) — 月和号",
+    "pinyin": "rìqī de biǎodá (1) — yuè hé hào",
+    "spanish": "Expresión de fechas (1): orden en chino es mes (月) + día (号). También se indica el día de la semana con 星期.",
+    "english": "Expression of a date (1): Chinese order is month (月) + day (号). Day of week uses 星期.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "名词谓语句",
+    "pinyin": "míngcí wèiyǔ jù",
+    "spanish": "Oración con predicado nominal: un sustantivo o frase nominal funciona directamente como predicado sin usar 是. Común con fechas, horas y edades.",
+    "english": "Sentence with a nominal predicate: a noun or noun phrase serves directly as the predicate without using 是. Common with dates, times, and ages.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "连动句(1) — 去+地点+做什么",
+    "pinyin": "liándòng jù (1) — qù + dìdiǎn + zuò shénme",
+    "spanish": "Oración con verbos en serie (1): dos verbos en secuencia, el primero indica desplazamiento y el segundo la acción realizada.",
+    "english": "Sentence with a serial verb construction (1): two verbs in sequence, first indicates movement and second the action performed.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "能愿动词「想」",
+    "pinyin": "néngyuàn dòngcí 'xiǎng'",
+    "spanish": "Verbo modal '想': expresa deseo o intención. Estructura: Sujeto + 想 + Verbo + Objeto.",
+    "english": "Modal verb '想': expresses desire or wish. Structure: Subject + 想 + Verb + Object.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "疑问代词「多少」和「几」的区别",
+    "pinyin": "yíwèn dàicí 'duōshǎo' hé 'jǐ' de qūbié",
+    "spanish": "'多少' vs '几': 多少 se usa para cantidades grandes o cuando el rango es desconocido; 几 para cantidades esperadas menores de 10.",
+    "english": "'多少' vs '几': 多少 is used for larger or unknown quantities; 几 for quantities expected to be less than 10.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "量词「个」和「口」",
+    "pinyin": "liàngcí 'gè' hé 'kǒu'",
+    "spanish": "Clasificadores '个' y '口': 个 es el clasificador general más común; 口 se usa para contar miembros de la familia.",
+    "english": "Measure words '个' and '口': 个 is the most common general classifier; 口 is used to count family members.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "钱数的表达",
+    "pinyin": "qián shù de biǎodá",
+    "spanish": "Expresión de cantidades de dinero: número + 块 (kuài, yuan coloquial). Ej: 五十块 = 50 yuanes.",
+    "english": "Expression of the amount of money: number + 块 (kuài, colloquial yuan). E.g., 五十块 = 50 yuan.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "动词「在」 — 表示位置",
+    "pinyin": "dòngcí 'zài' — biǎoshì wèizhi",
+    "spanish": "El verbo '在' indica la ubicación de algo o alguien. Estructura: Sujeto + 在 + Lugar.",
+    "english": "The verb '在' indicates the location of someone or something. Structure: Subject + 在 + Place.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "疑问代词「哪儿」",
+    "pinyin": "yíwèn dàicí 'nǎr'",
+    "spanish": "Pronombre interrogativo '哪儿': pregunta '¿dónde?' sobre ubicación.",
+    "english": "Interrogative pronoun '哪儿': asks 'where?' about location.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "介词「在」 — 表示动作地点",
+    "pinyin": "jiècí 'zài' — biǎoshì dòngzuò dìdiǎn",
+    "spanish": "La preposición '在' precede al lugar para indicar dónde ocurre la acción. Estructura: 在 + Lugar + Verbo.",
+    "english": "The preposition '在' precedes the place to indicate where an action happens. Structure: 在 + Place + Verb.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "疑问助词「呢」(2) — 问地点",
+    "pinyin": "yíwèn zhùcí 'ne' (2) — wèn dìdiǎn",
+    "spanish": "Partícula interrogativa '呢' (2): se coloca al final de una frase nominal para preguntar '¿dónde está...?'",
+    "english": "Interrogative particle '呢' (2): placed after a noun phrase to ask 'Where is...?'",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "「有」字句 — 表存在",
+    "pinyin": "'yǒu' zì jù — biǎo cúnzài",
+    "spanish": "Oración existencial con '有': indica existencia de algo en un lugar. Estructura: Lugar + 有 + Objeto.",
+    "english": "Existential sentence with '有': indicates the existence of something in a place. Structure: Place + 有 + Object.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "「是」字句 — 表存在",
+    "pinyin": "'shì' zì jù — biǎo cúnzài",
+    "spanish": "Oración con '是' para indicar existencia: identifica qué hay en un lugar. Estructura: Lugar + 是 + Objeto.",
+    "english": "The '是' sentence indicating existence: identifies what is at a location. Structure: Place + 是 + Object.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "连词「和」",
+    "pinyin": "liáncí 'hé'",
+    "spanish": "Conjunción '和': conecta sustantivos o frases nominales. No se usa para conectar cláusulas verbales.",
+    "english": "Conjunction '和': connects nouns or noun phrases. Not used to connect verbal clauses.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "能愿动词「能」",
+    "pinyin": "néngyuàn dòngcí 'néng'",
+    "spanish": "Verbo modal '能': indica posibilidad o permiso. Estructura: Sujeto + 能 + Verbo.",
+    "english": "Modal verb '能': indicates possibility or permission. Structure: Subject + 能 + Verb.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "用「吧」的祈使句",
+    "pinyin": "yòng 'ba' de qǐshǐ jù",
+    "spanish": "Oración imperativa con '吧': suaviza una sugerencia o propuesta. Expresa 'vamos a...' o '¿por qué no...?'",
+    "english": "Imperative sentence with '吧': softens a suggestion or command. Expresses 'let's...' or a gentle proposal.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "时间的表达 — 点和分",
+    "pinyin": "shíjiān de biǎodá — diǎn hé fēn",
+    "spanish": "Expresión de la hora: número + 点 (diǎn, en punto) + número + 分 (fēn, minutos). 半 = y media.",
+    "english": "Expression of time: number + 点 (diǎn, o'clock) + number + 分 (fēn, minutes). 半 = half past.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "时间词做状语",
+    "pinyin": "shíjiān cí zuò zhuàngyǔ",
+    "spanish": "El complemento de tiempo como adverbial: la palabra de tiempo se coloca antes del verbo (o al inicio de la oración). Nunca al final.",
+    "english": "Time word used as an adverbial: the time word is placed before the verb (or at the start of the sentence). Never at the end.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "名词「前」和「后」",
+    "pinyin": "míngcí 'qián' hé 'hòu'",
+    "spanish": "Los sustantivos '前' (antes/delante) y '后' (después/detrás): se usan para indicar tiempo relativo o posición espacial.",
+    "english": "The nouns '前' (before/in front) and '后' (after/behind): used to indicate relative time or spatial position.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "疑问代词「怎么样」",
+    "pinyin": "yíwèn dàicí 'zěnmeyàng'",
+    "spanish": "Pronombre interrogativo '怎么样': pregunta '¿cómo está?' o '¿qué tal?' sobre el estado o calidad de algo.",
+    "english": "Interrogative pronoun '怎么样': asks 'how is it?' or 'what is it like?' about the state or quality of something.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "主谓谓语句",
+    "pinyin": "zhǔwèi wèiyǔ jù",
+    "spanish": "Oración con predicado formado por una frase sujeto-predicado: el sujeto principal tiene como predicado otra frase S-V. Ej: Él [su salud es muy buena].",
+    "english": "Sentence with a subject-predicate phrase as predicate: the main subject has a S-P phrase as its predicate. E.g., He [health is very good].",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "程度副词「太」",
+    "pinyin": "chéngdù fùcí 'tài'",
+    "spanish": "Adverbio de grado '太': equivale a 'demasiado' o 'muy'. Con '了' al final expresa emoción o énfasis. Ej: 太好了！",
+    "english": "Adverb of degree '太': means 'too' or 'very'. With '了' at the end expresses emotion or emphasis. E.g., 太好了！",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "能愿动词「会」(2) — 预测",
+    "pinyin": "néngyuàn dòngcí 'huì' (2) — yùcè",
+    "spanish": "Verbo modal '会' (2): indica probabilidad o predicción futura. Diferente a '会' de habilidad. Ej: 明天会下雨。",
+    "english": "Modal verb '会' (2): indicates probability or future prediction. Different from the skill meaning of '会'. E.g., 明天会下雨。",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "语气词「呢」 — 表进行",
+    "pinyin": "yǔqì cí 'ne' — biǎo jìnxíng",
+    "spanish": "Partícula modal '呢' indicando acción en curso: se coloca al final de la oración para indicar que la acción está ocurriendo ahora.",
+    "english": "Modal particle '呢' indicating an ongoing action: placed at the end of a sentence to indicate an action currently in progress.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "「一点儿」表不确定量",
+    "pinyin": "'yīdiǎnr' biǎo bù quèdìng liàng",
+    "spanish": "'一点儿' para cantidad indefinida: expresa 'un poco de' o 'algo de'. Se usa antes del objeto.",
+    "english": "'一点儿' for an indefinite quantity: expresses 'a little' or 'some'. Used before the object.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "电话号码的表达",
+    "pinyin": "diànhuà hàomǎ de biǎodá",
+    "spanish": "Expresión de números de teléfono: se lee dígito por dígito. El número 1 se pronuncia 'yāo' para evitar confusión con 7.",
+    "english": "Expression of telephone numbers: read digit by digit. The number 1 is pronounced 'yāo' to avoid confusion with 7.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "语气助词「吧」",
+    "pinyin": "yǔqì zhùcí 'ba'",
+    "spanish": "Partícula modal '吧': suaviza sugerencias o propuestas. También se usa para expresar suposición o búsqueda de confirmación.",
+    "english": "Modal particle '吧': softens suggestions or proposals. Also used to express supposition or seek confirmation.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "「了」表发生或完成",
+    "pinyin": "'le' biǎo fāshēng huò wánchéng",
+    "spanish": "'了' indicando ocurrencia o completitud: se coloca después del verbo para indicar que una acción ya ocurrió o fue completada.",
+    "english": "'了' indicating occurrence or completion: placed after the verb to indicate an action has already occurred or been completed.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "「了」表发生或完成 — 例2",
+    "pinyin": "'le' biǎo fāshēng huò wánchéng — lì 2",
+    "spanish": "'了' de completitud (ejemplo 2): diferencia entre '了' verbal (acción completada) y '了' final de oración (cambio de estado).",
+    "english": "'了' of completion (example 2): difference between verbal '了' (completed action) and sentence-final '了' (change of state).",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "量词「些」",
+    "pinyin": "liàngcí 'xiē'",
+    "spanish": "Cuantificador '些': equivale a 'algunos/as' o 'unos/as'. Se usa con 这, 那 o 一 antes del sustantivo.",
+    "english": "Measure word '些': equivalent to 'some' or 'a few'. Used with 这, 那, or 一 before a noun.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "语气助词「啊」",
+    "pinyin": "yǔqì zhùcí 'a'",
+    "spanish": "Partícula modal '啊': se añade al final de la oración para expresar emoción, énfasis o exclamación.",
+    "english": "Modal particle '啊': added at the end of a sentence to express emotion, emphasis, or exclamation.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "副词「都」",
+    "pinyin": "fùcí 'dōu'",
+    "spanish": "Adverbio '都': significa 'todos/todas' o 'también'. Se coloca antes del verbo y después del sujeto.",
+    "english": "Adverb '都': means 'all' or 'both'. Placed before the verb and after the subject.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "「是……的」句",
+    "pinyin": "'shì...de' jù",
+    "spanish": "Estructura '是……的': se usa para enfatizar el tiempo, lugar o modo de una acción pasada. 是 puede omitirse en afirmativo.",
+    "english": "The structure '是……的': used to emphasize the time, place, or manner of a past action. 是 can be omitted in affirmatives.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "「是……的」句 — 例2",
+    "pinyin": "'shì...de' jù — lì 2",
+    "spanish": "Estructura '是……的' (ejemplo 2): se usa para preguntar o enfatizar la manera en que algo ocurrió.",
+    "english": "The structure '是……的' (example 2): used to ask about or emphasize the way something happened.",
+    "category": "Gramática"
+  },
+  {
+    "hanzi": "年月日的表达(2) — 完整日期",
+    "pinyin": "nián yuè rì de biǎodá (2) — wánzhěng rìqī",
+    "spanish": "Expresión completa de la fecha (2): el orden es año (年) + mes (月) + día (号/日). De mayor a menor unidad.",
+    "english": "Full expression of a date (2): the order is year (年) + month (月) + day (号/日). From largest to smallest unit.",
+    "category": "Gramática"
+  }
+]

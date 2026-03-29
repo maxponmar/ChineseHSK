@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "node scripts/generate-vocab-data.js && astro dev",
+    "build": "node scripts/generate-vocab-data.js && astro build",
     "preview": "astro preview"
   },
   "keywords": [],
