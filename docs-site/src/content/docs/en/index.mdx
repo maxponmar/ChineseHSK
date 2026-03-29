@@ -1,6 +1,48 @@
 ---
 title: Welcome
 description: Learn Mandarin Chinese with Anki flashcards
+template: splash
+hero:
+  title: Learn Mandarin Chinese
+  tagline: Anki study flashcards with native audio, HSK vocabulary, and phrases for everyday life and work.
+  actions:
+    - text: Get Started
+      link: /ChineseHSK/en/install-anki/
+      icon: right-arrow
+    - text: Download HSK1 Deck
+      link: https://github.com/maxponmar/ChineseHSK/releases
+      icon: external
+      variant: minimal
 ---
 
-This site will guide you step by step to learn Mandarin Chinese using Anki study flashcards.
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## What's included?
+
+<CardGrid>
+  <Card title="HSK Vocabulary" icon="open-book">
+    All words from HSK1 level, with pinyin, Spanish and English translations.
+  </Card>
+  <Card title="Everyday Phrases" icon="heart">
+    Greetings, restaurants, shopping, transportation, and social situations.
+  </Card>
+  <Card title="Work Phrases" icon="laptop">
+    Meetings, technology, emails, and video calls.
+  </Card>
+  <Card title="Grammar" icon="puzzle">
+    Grammar structures from the HSK1 textbook.
+  </Card>
+</CardGrid>
+
+## 4 card types
+
+Each word generates **4 different cards** for complete learning:
+
+1. **Recognition** — You see the Chinese characters and recall the meaning
+2. **Production** — You see the meaning and recall the Chinese characters
+3. **Listening** — You hear the audio and identify the word
+4. **Fill in the blank** — You complete the blank in a sentence
+
+## Who is this for?
+
+This resource is for anyone learning Mandarin Chinese, especially HSK students. No technical knowledge required — this guide walks you through everything step by step.
