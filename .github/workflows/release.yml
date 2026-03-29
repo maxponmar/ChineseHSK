@@ -1,0 +1,56 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r HSK1/requirements.txt
+
+      - name: Download icons
+        run: python -m HSK1.scripts.download_icons
+
+      - name: Generate audio
+        if: env.ELEVENLABS_API_KEY != ''
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python -m HSK1.scripts.generate_audio
+
+      - name: Build deck
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python -m HSK1.scripts.build_deck
+
+      - name: Extract tag info
+        id: tag
+        run: |
+          TAG="${GITHUB_REF#refs/tags/}"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          if echo "$TAG" | grep -qi "hsk1"; then echo "level=HSK1" >> "$GITHUB_OUTPUT"
+          elif echo "$TAG" | grep -qi "hsk2"; then echo "level=HSK2" >> "$GITHUB_OUTPUT"
+          elif echo "$TAG" | grep -qi "hsk3"; then echo "level=HSK3" >> "$GITHUB_OUTPUT"
+          elif echo "$TAG" | grep -qi "hsk4"; then echo "level=HSK4" >> "$GITHUB_OUTPUT"
+          elif echo "$TAG" | grep -qi "hsk5"; then echo "level=HSK5" >> "$GITHUB_OUTPUT"
+          else echo "level=HSK1" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ${{ steps.tag.outputs.level }}/output/${{ steps.tag.outputs.level }}_Complete.apkg
